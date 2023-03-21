@@ -28,5 +28,5 @@ hive_cnx = hive.Connection(
 
 cursor = hive_cnx.cursor()
 cursor.execute('SELECT * FROM customers LIMIT 10')
-print(cursor.fetchall())
+print(cursor.fetchall())  # fetchall is good for small-data, with big data you need to limit the amount of rows using .fetchmany(10000)
 cursor.close()

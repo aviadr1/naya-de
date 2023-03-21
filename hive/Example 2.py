@@ -21,7 +21,7 @@ hive_cnx = hive.Connection(
     port=hive_port,
     username=hive_username,
     password=hive_password,
-    database=hive_database,
+    database=hive_database, # we connect to classicmodels
     auth=hive_mode)
 
 
@@ -29,4 +29,11 @@ cursor = hive_cnx.cursor()
 cursor.execute('SHOW TABLES')
 print(cursor.fetchall())
 cursor.close()
+
+import pandas as pd
+df = pd.read_sql(
+    'SELECT * FROM customers', hive_cnx, 
+    # chunksize=10000
+    )
+print(df.head().iloc[:, :3]) # 3 columns 5 rows
 
