@@ -3,6 +3,10 @@
 '''
 
 import os
+
+# what is the current working directory
+os.system('pwd')
+
 # show databases
 os.system("mysql -unaya -pNayaPass1!  -e 'show databases;' ")
 
@@ -14,4 +18,4 @@ os.system("sudo mysql -unaya -pNayaPass1!  -e 'DROP DATABASE IF EXISTS audiostor
 os.system("sudo mysql -unaya -pNayaPass1!  -e 'create database audiostore;' ")
 
 # run databases.sql
-os.system("sudo mysql -unaya -pNayaPass1!  audiostore<AudioStoreDB.sql ")
+os.system("sudo mysql -unaya -pNayaPass1!  audiostore<exercise_hadoop/AudioStoreDB.sql ")
