@@ -1,6 +1,6 @@
 #==========pyarrow connector=========================================
 import pyarrow as pa
-fs = pa.hdfs.connect(
+fs = pa.hdfs.HadoopFileSystem(
     host='Cnt7-naya-cdh63',
     port=8020,
     user='hdfs',
