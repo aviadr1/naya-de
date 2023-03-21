@@ -9,7 +9,7 @@ source ~/.bashrc
 ### setup the latest git
 $DIR/uprade_git.sh
 
-yum install netcat
+sudo yum install netcat
 
 conda update conda
 ### if you want to install the environment on your own, uncomment the following lines
