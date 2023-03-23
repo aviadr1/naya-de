@@ -8,15 +8,19 @@ fs = pa.hdfs.HadoopFileSystem(
     extra_conf=None)
 
 #==========mysql connector==========================================
-import mysql.connector
+import sqlalchemy as sa
 
-cnx = mysql.\
-    connector.\
-    connect(user='naya',
-            password='NayaPass1!',
-            host='localhost',
-            database='audiostore')
+### mysql.connector has bugs with chunking, so use pymysql instead
+# import mysql.connector
+# cnx = mysql.\
+#     connector.\
+#     connect(user='naya',
+#             password='NayaPass1!',
+#             host='localhost',
+#             database='audiostore')
 
+# default
+mysql_cnx = sa.create_engine("mysql+pymysql://naya:NayaPass1!@localhost/audiostore")
 
 #==========hdfs connector===========================================
 # HDFS details
