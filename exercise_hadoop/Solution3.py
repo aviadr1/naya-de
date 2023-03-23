@@ -14,11 +14,11 @@ import os
 #     autocommit=True,
 #     database="audiostore")
 #
-cursor= c.cnx.cursor()
-cursor.execute('show tables;')
-tables1=cursor.fetchall()
-tables=[t[0] for t in tables1]
-cursor.close()
+with c.mysql_cnx.connect() as conn:
+    cursor = conn.execute('show tables;')
+    tables1=cursor.fetchall()
+    tables=[t[0] for t in tables1]
+    cursor.close()
 
 #print(tables1)
 print(tables)

@@ -15,10 +15,10 @@ for table in s.tables[2:11]:
     #tell me when you start
     print("starting ",table , end="...")
     #change dir owner
-    c.fs.chown(c.stg,group='naya',owner='impala')
-    c.fs.chown(c.impala_path, group='naya', owner='impala')
+    c.fs.chown(stg,group='naya',owner='impala')
+    c.fs.chown(impala_path, group='naya', owner='impala')
     #create tables in impala- only schema first
-    pf = c.client.parquet_file(hdfs_dir = f'{c.stg}', like_file = f'{c.stg}{table}.parquet')
+    pf = c.client.parquet_file(hdfs_dir = f'{stg}', like_file = f'{stg}{table}.parquet')
     c.client.create_table(table,
                         schema=pf.schema(),
                         database='audiostore',
@@ -31,7 +31,7 @@ for table in s.tables[2:11]:
     c.client.raw_sql('INVALIDATE METADATA', results=False)
     #5. Load the data into Impala
     c.client.load_data(table_name =table,
-                     path = f'{c.stg}{table}.parquet',
+                     path = f'{stg}{table}.parquet',
                      database='audiostore',
                      overwrite=True, partition=None
                     )
