@@ -1,12 +1,16 @@
 '''
 What is the most common word in the book which is not a stop-word?
 '''
+from pathlib import Path
 from pyspark import SparkContext
 sc = SparkContext.getOrCreate()
 
+folder = Path(__file__).parent
+mobydick_filename = str(folder / "melville-moby_dick.txt")
+
 # Read a text file
 text = sc\
-    .textFile(r"/tmp/pycharm_project_574/05_spark/spark_RDD/melville-moby_dick.txt")
+    .textFile(mobydick_filename)
 
 # We wish to clean all the non-letter characters using map(), so we write an auxiliary function called clean_word.
 def clean_word(s):
@@ -18,7 +22,8 @@ def clean_word(s):
 words_rdd = text\
     .flatMap(lambda line: line.split())\
     .map(clean_word)\
-    .filter(len)
+    .filter(len) \
+    .map(lambda word: word.lower()) # lower case becasue stop words are all lowercase too
 
 
 # We can use the groupBy() method to get a new pair RDD as described (poorly) in the documentation.
@@ -37,7 +42,7 @@ word_count = word_count\
 
 # Read Stop words file and changed it to key,value RDD
 stop_words = sc\
-    .textFile(r"/tmp/pycharm_project_574/05_spark/spark_RDD/english stop words.txt")\
+    .textFile(str(folder / "english stop words.txt"))\
     .map(lambda word: (word, 1))
 # print(stop_words.take(10))
 
