@@ -1,12 +1,16 @@
 '''
 What is the most common word in the book?
 '''
+from pathlib import Path
 from pyspark import SparkContext
 sc = SparkContext.getOrCreate()
 
+folder = Path(__file__).parent
+mobydick_filename = str(folder / "melville-moby_dick.txt")
+
 # Read a text file
 text = sc\
-    .textFile(r"/tmp/pycharm_project_574/05_spark/spark_RDD/melville-moby_dick.txt")
+    .textFile(mobydick_filename)
 
 # We wish to clean all the non-letter characters using map(), so we write an auxiliary function called clean_word.
 def clean_word(s):
@@ -34,4 +38,18 @@ word_count = word_iterator\
 word_count = word_count\
     .sortBy(lambda word_count: word_count[1], ascending=False)
 
+print(word_count.take(10))
+print('\n')
+
+### alternatively, we can do it in a slightly different way without groupby
+
+# map each word to a tuple with the word as the key and 1 as the value
+word_count = words_rdd.map(lambda word: (word, 1))
+
+# reduce by key to count the occurrences of each word
+word_count = word_count.reduceByKey(lambda a, b: a + b)
+
+word_count = word_count.sortBy(lambda word_count: word_count[1], ascending=False)
+
+# print the word counts
 print(word_count.take(10))
