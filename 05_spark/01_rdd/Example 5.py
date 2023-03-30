@@ -33,7 +33,7 @@ word_iterator = words_rdd\
 
 # Pair RDDs support the mapValues() method, which is a conveniency around map() which conserves the keys of the original RDD.
 word_count = word_iterator\
-    .mapValues(len)
+    .mapValues(len)  # [ (word, count), (word, count), ...]
 
 # Finally, the order of word_count is not guaranteed, so we have to sort its elements.
 word_count = word_count\
@@ -43,11 +43,12 @@ word_count = word_count\
 # Read Stop words file and changed it to key,value RDD
 stop_words = sc\
     .textFile(str(folder / "english stop words.txt"))\
-    .map(lambda word: (word, 1))
+    .map(lambda word: (word, 1))  # bring it to the same format as word_count
 # print(stop_words.take(10))
 
+# remove the words that are in stop_words
 word_count_2 = word_count\
-    .subtractByKey(stop_words)\
+    .subtractByKey(stop_words) \
     .sortBy(lambda word_count: word_count[1], ascending=False)
 
 print(word_count_2.take(10))
