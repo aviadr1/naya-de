@@ -5,20 +5,25 @@ For simplicity, you may assume that the user sends only integers.
 '''
 import os
 import re
+from pathlib import Path
 from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.sql import SparkSession
 
+from utils import *
 
 sc = SparkContext.getOrCreate()
 ssc = StreamingContext(sc, batchDuration=5)
 spark = SparkSession(sc)
 
+print('writing to', sum_of_files_path)
+
+
 def save_as_csv(rdd):
     if not rdd.isEmpty():
         spark.createDataFrame(rdd, schema=['num'])\
             .write\
-            .csv('file:///tmp/sum_of_nums_files/output_file',
+            .csv('file://' + sum_of_files_path, 
                  header=False,
                  mode='append')
 
