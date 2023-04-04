@@ -6,22 +6,25 @@ import re
 from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.sql import SparkSession
+from utils import *
+
 sc = SparkContext.getOrCreate()
 ssc = StreamingContext(sc, batchDuration=5)
 spark = SparkSession(sc)
 
-dir_name = 'my_stream_directory'
-stream_directory = "file://" + os.getcwd() + '/' + dir_name +'/'
+dir_name = output_folder / 'bible'
+dir_name.mkdir(exist_ok=True, parents=True)
 
 # create directory name
-if not os.path.exists(dir_name):
-    os.mkdir(dir_name)
+if not os.path.exists(str(dir_name)):
+    os.mkdir(str(dir_name))
 
 # Each RDD in our DStream is a result of an internal file reading,
 # probably implemented by the method textFile().
 # We already know that each element in such RDD is a line string from the file.
 # Therefore we should treat our stream accordingly.
-my_stream = ssc.textFileStream(stream_directory)
+print('reading from', dir_name, '...')
+my_stream = ssc.textFileStream("file://" + str(dir_name) + '/')
 
 # print the data
 my_stream.pprint()

@@ -8,19 +8,20 @@ from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.sql import SparkSession
 sc = SparkContext.getOrCreate()
+from utils import *
+
 ssc = StreamingContext(sc, batchDuration=5)
 spark = SparkSession(sc)
 
-dir_name = 'my_stream_directory'
-stream_directory = "file://" + os.getcwd() + '/' + dir_name +'/'
-
-# create directory name
-if not os.path.exists(dir_name):
-    os.mkdir(dir_name)
+dir_name = output_folder / 'bible'
+dir_name.mkdir(exist_ok=True, parents=True)
+god_folder = output_folder / 'god_existence'
+god_folder.mkdir(exist_ok=True, parents=True)
 
 # Each RDD in our DStream is a result of an internal file reading, probably implemented by the method textFile().
 # We already know that each element in such RDD is a line string from the file. Therefore we should treat our stream accordingly.
-my_stream = ssc.textFileStream(stream_directory)
+print('reading from', dir_name, '...')
+my_stream = ssc.textFileStream("file://" + str(dir_name) + '/')
 
 def count_god(rdd):
     '''
@@ -37,12 +38,12 @@ def count_god(rdd):
         spark.createDataFrame(rdd_sum,
                               schema=['cnt'])\
             .write\
-            .csv('file:///tmp/god_existence/output_file',
+            .csv('file://' + str(god_folder),
                  header=False,
                  mode='append')
 
 # Create for each rdd that we get
-my_stream.pprint()
+# my_stream.pprint()
 my_stream.foreachRDD(count_god)
 
 
