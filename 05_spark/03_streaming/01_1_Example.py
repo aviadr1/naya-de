@@ -23,7 +23,7 @@ def save_as_csv(rdd):
     if not rdd.isEmpty():
         spark.createDataFrame(rdd, schema=['num'])\
             .write\
-            .csv('file://' + sum_of_files_path, 
+            .csv('file://' + str(sum_of_files_path), 
                  header=False,
                  mode='append')
 

@@ -13,15 +13,13 @@ from utils import *
 ssc = StreamingContext(sc, batchDuration=5)
 spark = SparkSession(sc)
 
-dir_name = output_folder / 'bible'
-dir_name.mkdir(exist_ok=True, parents=True)
 god_folder = output_folder / 'god_existence'
 god_folder.mkdir(exist_ok=True, parents=True)
 
 # Each RDD in our DStream is a result of an internal file reading, probably implemented by the method textFile().
 # We already know that each element in such RDD is a line string from the file. Therefore we should treat our stream accordingly.
-print('reading from', dir_name, '...')
-my_stream = ssc.textFileStream("file://" + str(dir_name) + '/')
+print('reading from', bible_path, '...')
+my_stream = ssc.textFileStream("file://" + str(bible_path) + '/')
 
 def count_god(rdd):
     '''

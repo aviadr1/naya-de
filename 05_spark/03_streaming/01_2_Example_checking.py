@@ -16,7 +16,7 @@ print('writing to', sum_of_files_path)
 # this file will be created by running the 00_Example.py program first
 while True:
 
-    df = spark.read.csv('file://' + sum_of_files_path)
+    df = spark.read.csv('file://' + str(sum_of_files_path))
     my_sum = df\
         .agg({'_c0': 'sum'}) \
         .collect()[0]['sum(_c0)']

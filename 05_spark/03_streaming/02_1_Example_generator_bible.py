@@ -10,8 +10,7 @@ import os
 
 from utils import *
 
-dir_name = output_folder / 'bible'
-dir_name.mkdir(exist_ok=True, parents=True)
+
 
 def verse_generator(f_name, limit=5):
     '''
@@ -21,7 +20,7 @@ def verse_generator(f_name, limit=5):
     '''
     if limit is None:
         limit = 10**6
-    with open(folder / 'Bible.txt') as f: # open book
+    with open(f_name) as f: # open book
         verse=''
         for i, line in enumerate(f):            # The enumerate() function adds a counter to an iterable
             if line=='\n':                      # if empty lines
@@ -39,13 +38,12 @@ def verse_generator(f_name, limit=5):
                 else:                           # Header / title / comments
                     continue
 
-if not os.path.exists(dir_name):
-    os.mkdir(dir_name)
+
 
 for verse in verse_generator(folder / 'Bible.txt', 2000):
     ts = str(datetime.now()).replace(' ', '_').replace(':', '_')  # legal file name
-    f_name = 'bible_' + ts
-    f_path = str(dir_name / f_name)
+    f_name = 'bible_' + ts 
+    f_path = str(bible_path / f_name)
     print('writing to', f_path, '...')
     print(verse)
     with open(f_path, 'w') as f:
