@@ -16,6 +16,7 @@ class TwitterStreamListener(tweepy.StreamListener):
         self.tweets = []
 
     def on_data(self, data):
+        print('on_data:', data)
         # data is the full *tweet* json data
         api_events = json.loads(data)
 
@@ -48,6 +49,7 @@ class TwitterStreamListener(tweepy.StreamListener):
         sleep(10)
 
     def on_error(self, status_code):
+        print('on_error:', status_code)
         if status_code == 420:
             return False
 
@@ -60,7 +62,8 @@ def initialize():
 
     stream = TwitterStreamListener()
     twitter_stream = tweepy.Stream(auth=api.auth, listener=stream)
-    twitter_stream.filter(track=['Trump'], languages=['en'])
+    print(api)
+    twitter_stream.filter(track=['The'], languages=['en'])
 
 
 initialize()
