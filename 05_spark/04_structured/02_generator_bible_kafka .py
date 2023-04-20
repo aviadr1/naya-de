@@ -6,14 +6,16 @@ from time import sleep
 from datetime import datetime
 from random import random
 from kafka import KafkaProducer
+from pathlib import Path
 import json
 import re
 import os
 
 producer = KafkaProducer(bootstrap_servers='Cnt7-naya-cdh63:9092',
                                       value_serializer=lambda v: json.dumps(v).encode('utf-8'))
-
-dir_name = 'my_stream_directory'
+base_dir = Path(__file__).parent
+dir_name =  base_dir / 'output/my_stream_directory'
+dir_name.mkdir(parents=True, exist_ok=True)
 
 # Read from csv file
 
@@ -25,7 +27,7 @@ def verse_generator(f_name, limit=5):
     '''
     if limit is None:
         limit = 10**6
-    with open(r'/tmp/pycharm_project_746/Spark_Structure_Streaming/Bible.txt') as f:
+    with open(f_name) as f:
         verse=''
         for i, line in enumerate(f):            # Skip empty lines
             if line=='\n':
@@ -43,19 +45,14 @@ def verse_generator(f_name, limit=5):
                 else:                           # Header / title / comments
                     continue
 
-if not os.path.exists(dir_name):
-    os.mkdir(dir_name)
 
-for verse in verse_generator(r'/tmp/pycharm_project_746/Spark_Structure_Streaming/Bible.txt', 200):
+
+
+for verse in verse_generator(base_dir / 'Bible.txt', 200):
     print(verse)
     if verse:
         producer.send('bible', {'chapter': verse.split(":")[0], 'verse': verse.split(":")[1].split(" ")[0], 'text': " ".join(verse.split(" ")[1:])})
     sleep(3)
-
-
-
-
-
 
 
 # Finally, an auxiliary code for removing older files from the directory
