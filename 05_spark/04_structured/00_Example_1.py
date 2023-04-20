@@ -18,7 +18,9 @@ spark = SparkSession\
         .appName("Counter")\
         .getOrCreate()
 
+#
 ### Options for playing with variations of the pipeline. you can change values to True/False
+#
 filter_words_with_i = False
 filter_minimum_letters = False
 drop_wordCount_column = False
