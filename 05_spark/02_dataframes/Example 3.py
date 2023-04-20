@@ -17,3 +17,4 @@ dessert = spark.read.csv(dessert_filename,
 #################################################
 
 print(dessert.where(dessert.purchase).count())
+print(dessert.where(dessert.num_of_guests >5).show(10))

@@ -62,3 +62,7 @@ df.groupby(
     F.round('avg(Weight)', 2)
     ).show()
 print('\n\n')
+
+# 6. show all data, but for each row, show the average weight for people with this Age
+print(h1('6. show all data, but for each row, show the average weight for people with this Age'))
+df.selectExpr('Age', 'Weight', 'avg(Weight) OVER(PARTITION BY Weight) AS AVG_WEIGHT_FOR_AGE').show()

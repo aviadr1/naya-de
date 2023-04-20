@@ -13,7 +13,7 @@ from pyspark.sql import SparkSession
 from utils import *
 
 sc = SparkContext.getOrCreate()
-ssc = StreamingContext(sc, batchDuration=5)
+# ssc = StreamingContext(sc, batchDuration=5)
 spark = SparkSession(sc)
 
 

@@ -21,7 +21,6 @@ dessert = spark.read.csv(dessert_filename, header=True, inferSchema=True)\
   .withColumnRenamed('dessert', 'purchase')\
   .withColumnRenamed('hour', 'shift')\
 
-
 dessert.show(5)
 dessert.printSchema()
 
