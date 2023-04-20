@@ -1,21 +1,23 @@
 import configuration as c
 import mysql.connector as mc
-                                   #########################################################
-                                   ####  Note: FIRST! create database MyTaxisdb in MYSQL ###
-                                   #########################################################
 
-#===========================connector to mysql====================================#
+#########################################################
+####  Note: FIRST! create database MyTaxisdb in MYSQL ###
+#########################################################
+
+# ===========================connector to mysql====================================#
 mysql_conn = mc.connect(
     user=c.mysql_username,
     password=c.mysql_password,
     host=c.mysql_host,
     port=c.mysql_port,
     autocommit=True,
-    database=c.mysql_database_name  )
+    database=c.mysql_database_name,
+)
 
-#=======================# Creating the events table==============================#
+# =======================# Creating the events table==============================#
 mysql_cursor_taxi = mysql_conn.cursor()
-mysql_create_tbl_events = '''create table if not exists TAXIs_route (
+mysql_create_tbl_events = """create table if not exists TAXIs_route (
                             vendorid varchar (4) ,
                             pickup_datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
                             dropoff_datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
@@ -24,7 +26,6 @@ mysql_create_tbl_events = '''create table if not exists TAXIs_route (
                             passenger_count varchar (4) ,
                             trip_distance double ,
                             PaymentType varchar (4) 
-                             )'''
-
+                             )"""
 
 mysql_cursor_taxi.execute(mysql_create_tbl_events)
