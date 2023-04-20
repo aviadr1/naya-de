@@ -18,7 +18,7 @@ spark = SparkSession.builder.appName("From_Kafka_To_parquet").getOrCreate()
 
 # ==============================================================================================
 # =========================================== ReadStream from kafka===========================#
-socketDF = (
+kafkaDF = (
     spark.readStream.format("kafka")
     .option("kafka.bootstrap.servers", c.bootstrapServers)
     .option("Subscribe", c.topic4)
@@ -54,7 +54,7 @@ schema = (
 # ==============================================================================================
 # ==========================change json to dataframe with schema==============================#
 taxiTripsDF = (
-    socketDF.select(f.col("value").cast("string"))
+    kafkaDF.select(f.col("value").cast("string"))
     .select(f.from_json(f.col("value"), schema).alias("value"))
     .select("value.*")
 )

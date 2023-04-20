@@ -5,6 +5,21 @@ import mysql.connector as mc
 ####  Note: FIRST! create database MyTaxisdb in MYSQL ###
 #########################################################
 
+# create a MySQL DB
+mysql_conn = mc.connect(
+    user=c.mysql_username,
+    password=c.mysql_password,
+    host=c.mysql_host,
+    port=c.mysql_port,
+    autocommit=True
+    )
+
+mysql_cursor = mysql_conn.cursor() 
+mysql_cursor.execute("CREATE DATABASE IF NOT EXISTS MyTaxisdb")
+mysql_cursor.close()
+mysql_conn.close()
+
+
 # ===========================connector to mysql====================================#
 mysql_conn = mc.connect(
     user=c.mysql_username,

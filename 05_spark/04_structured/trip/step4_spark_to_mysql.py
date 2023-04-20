@@ -17,7 +17,7 @@ spark = SparkSession.builder.appName("From_Kafka_To_mysql").getOrCreate()
 
 # ==============================================================================================
 # =========================================== ReadStream from kafka===========================#
-socketDF =   (
+socketDF = (
     spark.readStream.format("kafka")
     .option("kafka.bootstrap.servers", c.bootstrapServers)
     .option("Subscribe", c.topic3)
@@ -85,33 +85,39 @@ def procss_row(events):
         password="NayaPass1!",
         host="localhost",
         port=3306,
-        autocommit=True,  # <--
+        autocommit=True,
         database="MyTaxisdb",
     )
+    try:
+        print('writing to mysql', events)
+        mysql_cursor = mysql_conn.cursor()  
 
-    insert_statement = """
-    INSERT INTO MyTaxisdb.TAXIs_route(
-        vendorid,	pickup_datetime,	dropoff_datetime,   store_and_fwd_flag,	
-        ratecodeid, passenger_count,    trip_distance,	    PaymentType
-)
-        VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}'); """
+        insert_statement = """
+            INSERT INTO MyTaxisdb.TAXIs_route(
+                vendorid,	pickup_datetime,	dropoff_datetime,   store_and_fwd_flag,	
+                ratecodeid, passenger_count,    trip_distance,	    PaymentType
+            )
+            VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}'); 
+            """
+        
+        sql = insert_statement.format(
+            events["vendorid"],
+            events["pickup_datetime"],
+            events["dropoff_datetime"],
+            events["store_and_fwd_flag"],
+            events["ratecodeid"],
+            events["passenger_count"],
+            events["trip_distance"],
+            events["PaymentType"],
+        )
+        # print(sql)
+        mysql_cursor.execute(sql)
+        mysql_conn.commit()
+    finally:
+        if mysql_cursor: mysql_cursor.close()
+        if mysql_conn: mysql_conn.close()
 
-    mysql_cursor = mysql_conn.cursor()
-    sql = insert_statement.format(
-        events["vendorid"],
-        events["pickup_datetime"],
-        events["dropoff_datetime"],
-        events["store_and_fwd_flag"],
-        events["ratecodeid"],
-        events["passenger_count"],
-        events["trip_distance"],
-        events["PaymentType"],
-    )
-    # print(sql)
-    mysql_conn.commit()
-    mysql_cursor.execute(sql)
-    mysql_cursor.close()
-    pass
+
 
 
 Insert_To_MYSQL_DB = (
