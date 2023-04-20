@@ -23,6 +23,9 @@ os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka
 bootstrapServers = "Cnt7-naya-cdh63:9092"
 topics = "TweeterData"
 
+output_raw_kafka = False
+output_raw_tweets = False
+filter_short_tweets = True
 
 spark = SparkSession\
         .builder\
@@ -36,6 +39,17 @@ df_kafka = spark\
     .option("kafka.bootstrap.servers", bootstrapServers)\
     .option("subscribe", topics)\
     .load()
+
+if output_raw_kafka:
+    # just print the bare kafka structure
+    result = (df_kafka
+        .writeStream 
+        .format("console") 
+        .start()
+        .awaitTermination()
+    )
+    
+
 
 # Create schema for create df from json
 schema = StructType() \
@@ -55,6 +69,14 @@ df_tweets = df_kafka.select(col("value").cast("string"))\
     .select(from_json(col("value"), schema).alias("value"))\
     .select("value.*")
 
+if output_raw_tweets:
+    result = (df_tweets
+        .writeStream 
+        .format("console") 
+        .start()
+        .awaitTermination()
+    )
+
 # Add current time in timestamp in column "current_ts"
 df_tweets = df_tweets.withColumn("current_ts", current_timestamp().cast('string'))
 
@@ -67,8 +89,9 @@ df_tweets = df_tweets.withColumn("minute", minute("current_ts").cast('integer'))
 # Add wordcount in column "wordCount"
 df_tweets = df_tweets.withColumn('wordCount', size(split(col('text'), ' ')))
 
-# Filter just more than 10 words in tweets
-df_tweets = df_tweets.where(col("wordCount") > 10)
+if filter_short_tweets:
+    # Filter just more than 10 words in tweets
+    df_tweets = df_tweets.where(col("wordCount") > 10)
 
 # Add sentiment analysis in column "wordCount"
 def get_sentiment(string1):
