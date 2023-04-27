@@ -59,15 +59,15 @@ taxiTripsDF = (
     .select("value.*")
 )
 
-# ====# 1: Remove spaces from column names====================================================#
+# ====# 1: Rename columns ====================================================#
 taxiTripsDF = (
-    taxiTripsDF.withColumnRenamed("vendorid", "vendorid")
-    .withColumnRenamed("lpep_pickup_datetime", "pickup_datetime")
+    taxiTripsDF.withColumnRenamed("lpep_pickup_datetime", "pickup_datetime")
     .withColumnRenamed("lpep_dropoff_datetime", "dropoff_datetime")
-    .withColumnRenamed("passenger_count", "passenger_count")
-    .withColumnRenamed("trip_distance", "trip_distance")
-    .withColumnRenamed("ratecodeid", "ratecodeid")
-    .withColumnRenamed("store_and_fwd_flag", "store_and_fwd_flag")
+    # .withColumnRenamed("vendorid", "vendorid")
+    # .withColumnRenamed("passenger_count", "passenger_count")
+    # .withColumnRenamed("trip_distance", "trip_distance")
+    # .withColumnRenamed("ratecodeid", "ratecodeid")
+    # .withColumnRenamed("store_and_fwd_flag", "store_and_fwd_flag")
     .withColumnRenamed("payment_type", "PaymentType")
 )
 

@@ -14,5 +14,5 @@ print('total rows:', spark_df.count())
 print()
 
 spark_df.show(5)
-# spark_df.printSchema()
+spark_df.printSchema()
 
