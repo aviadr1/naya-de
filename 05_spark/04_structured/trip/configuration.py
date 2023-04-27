@@ -1,3 +1,31 @@
+import pyarrow as pa
+
+# ========================================================================================================= #
+# ================================= /hive/ HDFS =============================================== #
+host='Cnt7-naya-cdh63'
+port=8020
+user='hdfs'
+
+
+hdfs_host = 'Cnt7-naya-cdh63'
+hdfs_owner ='naya'
+hdfs_group='supergroup'
+
+hdfs_root = f"hdfs://{hdfs_host}:{port}/user/aviad/de_proj/"
+source_path = hdfs_root + 'traffic_parquet'
+
+fs = pa.hdfs.HadoopFileSystem(
+    host=host,
+    port=port,
+    user=user,
+    kerb_ticket=None,
+    extra_conf=None)
+
+fs.mkdir(hdfs_root, create_parents=True)
+fs.chown(path=hdfs_root, owner=hdfs_owner, group=hdfs_group)
+# fs.chmod(path=hdfs_root, permissions='g+wx')
+
+
 # ========================================================================================================= #
 # ========================================Kafka Connections =============================================== #
 # ========================================================================================================= #
@@ -12,13 +40,17 @@ topic4 = 'From_Kafka_To_Hdfs_Parquet'
 green_taxi_events_api="https://data.cityofnewyork.us/resource/gi8d-wdg5.json"
 
 
+
 # ======== Format DataFrame to json file and Write it to HDFS  ==================== #
-kafka_to_hdfs_json_path = 'hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/hdfsarchive/'
-kafka_to_hdfs_json_checkpoint_path = 'hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/hdfsarchive.checkpoint/'
+# kafka_to_hdfs_json_path = 'hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/hdfsarchive/'
+# kafka_to_hdfs_json_checkpoint_path = 'hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/hdfsarchive.checkpoint/'
+kafka_to_hdfs_json_path = hdfs_root + 'hdfsarchive/'
+kafka_to_hdfs_json_checkpoint_path = hdfs_root + 'hdfsarchive.checkpoint/'
+
 
 # ======== Format DataFrame to parquet file and Write it to HDFS  ==================== #
-From_Kafka_To_Hdfs_Parquet_path = "hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/traffic_parquet/"
-From_Kafka_To_Hdfs_parquet_path_checkpointLocation = "hdfs://Cnt7-naya-cdh63:8020/user/alin/de_proj/traffic_parque.checkpoint/"
+From_Kafka_To_Hdfs_Parquet_path = hdfs_root + "traffic_parquet/"
+From_Kafka_To_Hdfs_parquet_path_checkpointLocation = hdfs_root + "traffic_parque.checkpoint/"
 # ========================================================================================================= #
 # =================================sql stocks connection =============================================== #
 # ========================================================================================================= #
@@ -29,16 +61,7 @@ mysql_username = 'naya'
 mysql_password = 'NayaPass1!'
 mysql_table_name = 'TAXIs'
 
-# ========================================================================================================= #
-# =================================/hive/ =============================================== #
-host='Cnt7-naya-cdh63'
-port=8020
-user='hdfs'
 
-hdfs_host = 'Cnt7-naya-cdh63'
-hdfs_owner ='hdfs'
-hdfs_group='supergroup'
-source_path = '/user/alin/de_proj/traffic_parquet'
 # ====== Settings to HUE Connection ===================== #
 hue_port = 8889
 hue_username = 'hdfs'
