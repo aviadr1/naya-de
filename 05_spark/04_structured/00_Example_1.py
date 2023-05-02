@@ -13,10 +13,10 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.functions import udf,StringType
 
-spark = SparkSession\
-        .builder\
-        .appName("Counter")\
+spark = (SparkSession.builder
+        .appName("Counter")
         .getOrCreate()
+)
 
 #
 ### Options for playing with variations of the pipeline. you can change values to True/False
@@ -50,6 +50,7 @@ words = socketDF.select(
 if filter_words_with_i:
     # Filter to get only names with "i"
     words = words.filter(words.word.like('%i%'))
+    # words = words.filter(col('word').contains('i'))
 
 # Change the first letter to uppercase
 def capitalize(s):
