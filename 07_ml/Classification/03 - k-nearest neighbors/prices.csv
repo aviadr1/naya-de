@@ -1,0 +1,1235 @@
+"id","City","Balcony","Parking","Rooms","Air.Conditioner","Price"
+"1","Haifa","None","Outside",3,"None",3171
+"2","Tel Aviv","Balcony","Inside",2,"A/C",4238
+"3","Haifa","None","None",3,"None",2853
+"4","Jerusalem","None","None",2,"None",2666
+"5","Tel Aviv","Balcony","None",3,"None",4821
+"6","Tel Aviv","None","Inside",5,"A/C",6386
+"7","Jerusalem","Balcony","Outside",3,"A/C",4873
+"8","Jerusalem","None","Inside",2,"A/C",3426
+"9","Tel Aviv","Balcony","Inside",3,"A/C",5302
+"10","Tel Aviv","Balcony","Inside",2,"A/C",4168
+"11","Jerusalem","None","None",2,"A/C",3267
+"12","Haifa","Balcony","None",4,"None",3883
+"13","Haifa","None","None",2,"A/C",2109
+"14","Jerusalem","None","None",4,"None",4529
+"15","Jerusalem","Balcony","None",2,"A/C",3567
+"16","Jerusalem","None","Inside",3,"None",4348
+"17","Jerusalem","Balcony","Outside",4,"None",5072
+"18","Jerusalem","None","Inside",3,"None",4220
+"19","Tel Aviv","None","Inside",3,"A/C",5193
+"20","Haifa","Balcony","None",2,"None",2342
+"21","Tel Aviv","Balcony","None",4,"None",5390
+"22","Haifa","Balcony","None",3,"A/C",3652
+"23","Haifa","None","Outside",3,"None",3389
+"24","Tel Aviv","None","Inside",3,"A/C",5055
+"25","Jerusalem","Balcony","Outside",4,"None",5015
+"26","Jerusalem","None","Outside",2,"A/C",3103
+"27","Jerusalem","Balcony","Inside",5,"None",5881
+"28","Haifa","Balcony","None",5,"None",4797
+"29","Jerusalem","Balcony","None",2,"A/C",3272
+"30","Jerusalem","Balcony","Inside",3,"A/C",5010
+"31","Tel Aviv","Balcony","None",5,"None",6283
+"32","Jerusalem","Balcony","None",3,"A/C",4640
+"33","Jerusalem","Balcony","None",2,"A/C",3351
+"34","Jerusalem","None","None",2,"A/C",2974
+"35","Tel Aviv","Balcony","None",5,"None",6105
+"36","Tel Aviv","Balcony","None",3,"A/C",5133
+"37","Haifa","None","None",2,"A/C",2079
+"38","Haifa","Balcony","Inside",2,"A/C",2741
+"39","Tel Aviv","Balcony","Outside",2,"None",4050
+"40","Jerusalem","Balcony","Inside",5,"A/C",6075
+"41","Jerusalem","None","Inside",3,"None",4090
+"42","Jerusalem","Balcony","None",5,"A/C",5759
+"43","Haifa","Balcony","Inside",2,"None",2667
+"44","Jerusalem","None","None",5,"A/C",5675
+"45","Tel Aviv","Balcony","None",5,"None",6366
+"46","Tel Aviv","Balcony","Outside",3,"A/C",5401
+"47","Tel Aviv","None","Outside",3,"None",4888
+"48","Tel Aviv","Balcony","Outside",3,"A/C",5536
+"49","Tel Aviv","Balcony","Inside",5,"A/C",7006
+"50","Tel Aviv","None","None",2,"A/C",3671
+"51","Tel Aviv","Balcony","None",5,"A/C",6562
+"52","Haifa","Balcony","Outside",5,"None",4849
+"53","Tel Aviv","Balcony","None",5,"A/C",6349
+"54","Tel Aviv","Balcony","Inside",4,"None",5777
+"55","Jerusalem","None","None",3,"A/C",4305
+"56","Tel Aviv","None","Inside",5,"None",6128
+"57","Haifa","None","Inside",3,"A/C",3494
+"58","Tel Aviv","Balcony","Inside",4,"A/C",6046
+"59","Tel Aviv","Balcony","None",5,"A/C",6462
+"60","Tel Aviv","None","Inside",4,"A/C",5730
+"61","Haifa","Balcony","Outside",5,"None",5135
+"62","Jerusalem","Balcony","None",3,"None",4129
+"63","Jerusalem","None","Outside",4,"A/C",5202
+"64","Haifa","Balcony","Inside",5,"A/C",5473
+"65","Tel Aviv","Balcony","Outside",3,"A/C",5463
+"66","Jerusalem","None","None",5,"None",5192
+"67","Tel Aviv","Balcony","Inside",3,"None",5079
+"68","Tel Aviv","None","Inside",4,"A/C",5681
+"69","Haifa","Balcony","None",3,"A/C",3498
+"70","Haifa","None","Inside",3,"None",3322
+"71","Tel Aviv","Balcony","None",2,"None",3599
+"72","Jerusalem","None","Outside",3,"A/C",4495
+"73","Tel Aviv","Balcony","None",3,"None",4851
+"74","Jerusalem","None","Outside",3,"A/C",4341
+"75","Tel Aviv","Balcony","Outside",3,"A/C",5460
+"76","Haifa","Balcony","None",2,"None",2366
+"77","Haifa","None","None",5,"None",4477
+"78","Tel Aviv","None","Outside",3,"A/C",4926
+"79","Jerusalem","Balcony","None",5,"A/C",6091
+"80","Jerusalem","Balcony","Outside",2,"None",3327
+"81","Haifa","None","None",2,"A/C",2245
+"82","Jerusalem","None","Outside",3,"A/C",4386
+"83","Jerusalem","Balcony","Inside",2,"None",3635
+"84","Tel Aviv","Balcony","Outside",2,"A/C",4071
+"85","Jerusalem","Balcony","None",4,"None",5084
+"86","Tel Aviv","None","Inside",4,"A/C",5705
+"87","Tel Aviv","None","Outside",4,"None",5268
+"88","Haifa","Balcony","Inside",4,"A/C",4590
+"89","Haifa","None","None",4,"None",3879
+"90","Haifa","None","None",2,"None",2007
+"91","Tel Aviv","Balcony","None",4,"A/C",5680
+"92","Tel Aviv","Balcony","None",2,"A/C",4179
+"93","Jerusalem","Balcony","Inside",4,"A/C",5613
+"94","Jerusalem","None","Outside",5,"A/C",5697
+"95","Tel Aviv","None","None",4,"None",5308
+"96","Jerusalem","Balcony","Outside",3,"None",4582
+"97","Haifa","None","Inside",5,"A/C",5165
+"98","Jerusalem","None","None",4,"None",4492
+"99","Haifa","None","None",4,"None",3609
+"100","Tel Aviv","None","Inside",2,"None",3729
+"101","Jerusalem","None","Outside",2,"None",3217
+"102","Jerusalem","Balcony","Outside",3,"A/C",4849
+"103","Tel Aviv","Balcony","Outside",2,"A/C",4082
+"104","Jerusalem","None","Inside",4,"None",5033
+"105","Tel Aviv","Balcony","None",5,"A/C",6549
+"106","Jerusalem","Balcony","None",2,"A/C",3443
+"107","Tel Aviv","Balcony","Outside",3,"A/C",5528
+"108","Jerusalem","None","Inside",5,"A/C",5866
+"109","Tel Aviv","None","Inside",3,"A/C",5185
+"110","Tel Aviv","Balcony","None",2,"None",3794
+"111","Jerusalem","None","Inside",2,"None",3154
+"112","Haifa","None","None",4,"None",3643
+"113","Haifa","Balcony","Inside",5,"A/C",5425
+"114","Jerusalem","Balcony","Outside",3,"A/C",4627
+"115","Tel Aviv","None","Outside",4,"A/C",5587
+"116","Jerusalem","None","Inside",4,"None",4962
+"117","Jerusalem","Balcony","None",4,"A/C",5173
+"118","Jerusalem","Balcony","Inside",3,"A/C",4856
+"119","Jerusalem","Balcony","Outside",2,"A/C",3453
+"120","Haifa","None","None",4,"A/C",3995
+"121","Haifa","Balcony","None",4,"A/C",4136
+"122","Jerusalem","Balcony","Outside",5,"None",5926
+"123","Tel Aviv","Balcony","None",4,"None",5592
+"124","Jerusalem","None","Outside",4,"A/C",5049
+"125","Tel Aviv","None","Inside",5,"A/C",6632
+"126","Tel Aviv","None","None",5,"A/C",6228
+"127","Jerusalem","None","Outside",3,"A/C",4355
+"128","Haifa","Balcony","None",4,"None",4113
+"129","Jerusalem","None","Inside",3,"A/C",4641
+"130","Tel Aviv","None","None",4,"None",5202
+"131","Jerusalem","Balcony","Outside",2,"None",3575
+"132","Haifa","None","Inside",3,"None",3269
+"133","Tel Aviv","Balcony","Inside",2,"A/C",4493
+"134","Tel Aviv","Balcony","Inside",5,"None",6712
+"135","Jerusalem","Balcony","None",3,"None",4169
+"136","Jerusalem","None","Outside",4,"A/C",5246
+"137","Tel Aviv","None","Inside",3,"None",5017
+"138","Tel Aviv","None","Outside",5,"A/C",6330
+"139","Haifa","None","None",2,"A/C",2074
+"140","Jerusalem","Balcony","Outside",4,"A/C",5369
+"141","Tel Aviv","Balcony","None",5,"None",6187
+"142","Haifa","Balcony","Inside",2,"None",2713
+"143","Tel Aviv","Balcony","None",5,"None",6235
+"144","Haifa","Balcony","None",3,"None",3520
+"145","Jerusalem","None","Outside",2,"A/C",3410
+"146","Jerusalem","None","Inside",2,"A/C",3221
+"147","Jerusalem","None","None",2,"None",2915
+"148","Haifa","Balcony","Inside",3,"None",3796
+"149","Jerusalem","None","Inside",5,"A/C",5909
+"150","Tel Aviv","Balcony","Inside",5,"None",6390
+"151","Tel Aviv","Balcony","Outside",4,"None",5584
+"152","Jerusalem","Balcony","Inside",3,"A/C",4823
+"153","Tel Aviv","None","Outside",5,"None",6199
+"154","Tel Aviv","None","None",3,"None",4458
+"155","Haifa","None","None",3,"None",3104
+"156","Haifa","Balcony","Outside",4,"A/C",4431
+"157","Tel Aviv","None","Outside",3,"A/C",4882
+"158","Haifa","None","None",2,"None",2046
+"159","Jerusalem","Balcony","Outside",3,"A/C",4864
+"160","Tel Aviv","None","None",3,"None",4693
+"161","Jerusalem","None","Outside",2,"None",2864
+"162","Tel Aviv","Balcony","Outside",2,"A/C",4424
+"163","Jerusalem","None","None",5,"A/C",5426
+"164","Tel Aviv","None","Outside",2,"None",3465
+"165","Haifa","Balcony","Inside",5,"None",5281
+"166","Tel Aviv","None","None",5,"A/C",6297
+"167","Jerusalem","Balcony","Outside",2,"None",3290
+"168","Tel Aviv","Balcony","Inside",3,"None",5328
+"169","Haifa","None","Outside",2,"A/C",2467
+"170","Haifa","None","Inside",3,"None",3427
+"171","Tel Aviv","Balcony","Outside",4,"None",5782
+"172","Haifa","None","Outside",4,"None",4031
+"173","Tel Aviv","None","Outside",2,"A/C",3777
+"174","Tel Aviv","None","Outside",4,"None",5611
+"175","Haifa","Balcony","Inside",4,"None",4557
+"176","Jerusalem","Balcony","Inside",4,"None",5318
+"177","Haifa","None","None",2,"A/C",2042
+"178","Haifa","Balcony","Outside",5,"A/C",5241
+"179","Jerusalem","None","Inside",2,"A/C",3575
+"180","Tel Aviv","None","Inside",4,"A/C",5613
+"181","Jerusalem","Balcony","Inside",5,"A/C",6163
+"182","Haifa","Balcony","Inside",4,"None",4461
+"183","Haifa","Balcony","Inside",4,"A/C",4508
+"184","Jerusalem","None","Inside",3,"A/C",4477
+"185","Tel Aviv","Balcony","Inside",5,"A/C",7002
+"186","Tel Aviv","Balcony","Inside",4,"A/C",5988
+"187","Haifa","Balcony","Inside",5,"A/C",5406
+"188","Jerusalem","Balcony","None",3,"None",4330
+"189","Tel Aviv","None","Outside",2,"A/C",3845
+"190","Tel Aviv","None","Outside",2,"None",3508
+"191","Jerusalem","None","Inside",3,"None",4084
+"192","Jerusalem","None","Outside",4,"A/C",5099
+"193","Tel Aviv","None","Inside",4,"None",5526
+"194","Jerusalem","Balcony","Inside",5,"A/C",6365
+"195","Tel Aviv","None","None",3,"None",4365
+"196","Tel Aviv","None","Outside",2,"A/C",3885
+"197","Jerusalem","None","Inside",4,"None",4823
+"198","Haifa","None","Outside",3,"A/C",3672
+"199","Haifa","Balcony","Inside",4,"A/C",4486
+"200","Haifa","None","Outside",5,"None",4435
+"201","Haifa","Balcony","Inside",4,"None",4536
+"202","Tel Aviv","None","Outside",5,"A/C",6438
+"203","Jerusalem","None","Inside",2,"None",3137
+"204","Haifa","None","Outside",3,"A/C",3538
+"205","Haifa","Balcony","Inside",3,"A/C",3908
+"206","Jerusalem","Balcony","Outside",4,"A/C",5609
+"207","Jerusalem","None","Inside",2,"A/C",3529
+"208","Haifa","None","Outside",4,"None",4091
+"209","Tel Aviv","Balcony","Inside",4,"None",5870
+"210","Tel Aviv","Balcony","Inside",4,"None",5804
+"211","Jerusalem","None","Outside",5,"None",5466
+"212","Haifa","Balcony","None",3,"None",3315
+"213","Tel Aviv","None","Inside",2,"A/C",3893
+"214","Tel Aviv","None","Outside",5,"None",6041
+"215","Tel Aviv","None","Inside",4,"A/C",5760
+"216","Haifa","Balcony","Outside",4,"A/C",4679
+"217","Tel Aviv","None","Inside",2,"None",3830
+"218","Jerusalem","None","None",3,"None",4002
+"219","Haifa","None","Inside",2,"None",2245
+"220","Tel Aviv","Balcony","Inside",4,"None",5924
+"221","Tel Aviv","Balcony","None",2,"None",3658
+"222","Tel Aviv","None","Outside",4,"A/C",5557
+"223","Tel Aviv","None","None",2,"A/C",3578
+"224","Haifa","None","Inside",3,"A/C",3710
+"225","Haifa","Balcony","Outside",3,"A/C",3772
+"226","Tel Aviv","Balcony","None",3,"A/C",5032
+"227","Jerusalem","Balcony","Inside",4,"None",5338
+"228","Jerusalem","None","None",5,"A/C",5457
+"229","Haifa","None","Outside",3,"A/C",3681
+"230","Jerusalem","None","None",2,"None",2686
+"231","Tel Aviv","None","Inside",3,"None",4709
+"232","Jerusalem","Balcony","None",4,"None",5108
+"233","Haifa","Balcony","Inside",5,"None",5230
+"234","Haifa","None","Outside",4,"A/C",4177
+"235","Jerusalem","Balcony","Inside",2,"None",3476
+"236","Haifa","Balcony","Inside",2,"A/C",2664
+"237","Haifa","None","Inside",3,"None",3265
+"238","Haifa","None","None",4,"None",3571
+"239","Jerusalem","None","None",2,"A/C",3225
+"240","Jerusalem","Balcony","None",4,"A/C",5078
+"241","Jerusalem","None","Outside",2,"A/C",3296
+"242","Jerusalem","Balcony","Inside",2,"None",3403
+"243","Haifa","Balcony","Inside",3,"A/C",4092
+"244","Haifa","None","Outside",2,"A/C",2230
+"245","Jerusalem","Balcony","Outside",2,"A/C",3618
+"246","Tel Aviv","None","Inside",3,"None",5010
+"247","Tel Aviv","Balcony","Inside",3,"None",5264
+"248","Tel Aviv","Balcony","Inside",4,"A/C",6066
+"249","Tel Aviv","None","None",4,"None",5316
+"250","Haifa","Balcony","Inside",5,"A/C",5387
+"251","Tel Aviv","Balcony","None",4,"A/C",5916
+"252","Jerusalem","Balcony","Inside",2,"None",3470
+"253","Haifa","Balcony","Outside",2,"None",2335
+"254","Jerusalem","Balcony","Outside",4,"A/C",5275
+"255","Haifa","Balcony","Outside",2,"None",2304
+"256","Jerusalem","None","None",2,"None",2786
+"257","Haifa","Balcony","None",2,"None",2414
+"258","Haifa","Balcony","None",2,"A/C",2378
+"259","Tel Aviv","Balcony","None",3,"A/C",5064
+"260","Jerusalem","Balcony","Outside",2,"A/C",3667
+"261","Jerusalem","None","Inside",2,"None",3125
+"262","Jerusalem","Balcony","Inside",2,"None",3582
+"263","Jerusalem","None","None",3,"A/C",4270
+"264","Jerusalem","Balcony","None",3,"A/C",4377
+"265","Jerusalem","Balcony","Inside",3,"A/C",5058
+"266","Tel Aviv","None","None",3,"A/C",4880
+"267","Haifa","None","Inside",2,"A/C",2617
+"268","Haifa","Balcony","Inside",4,"None",4579
+"269","Jerusalem","None","Outside",5,"None",5688
+"270","Jerusalem","None","Outside",4,"None",5018
+"271","Jerusalem","None","None",5,"A/C",5419
+"272","Tel Aviv","Balcony","None",3,"None",5030
+"273","Jerusalem","Balcony","Outside",2,"None",3461
+"274","Haifa","None","None",2,"None",1943
+"275","Tel Aviv","None","None",4,"None",5301
+"276","Haifa","None","None",5,"A/C",4741
+"277","Jerusalem","Balcony","None",5,"A/C",5985
+"278","Jerusalem","Balcony","None",3,"A/C",4542
+"279","Haifa","Balcony","Outside",3,"A/C",3875
+"280","Haifa","Balcony","None",5,"A/C",4836
+"281","Haifa","Balcony","Outside",3,"None",3701
+"282","Jerusalem","None","Outside",3,"A/C",4498
+"283","Haifa","Balcony","None",3,"A/C",3633
+"284","Haifa","Balcony","None",5,"None",4818
+"285","Jerusalem","None","None",3,"A/C",4218
+"286","Jerusalem","Balcony","Outside",5,"A/C",6243
+"287","Haifa","Balcony","Inside",4,"A/C",4723
+"288","Tel Aviv","Balcony","None",2,"None",3747
+"289","Haifa","Balcony","Outside",3,"None",3770
+"290","Jerusalem","None","Inside",4,"None",4839
+"291","Jerusalem","Balcony","Inside",4,"A/C",5693
+"292","Jerusalem","Balcony","Outside",5,"A/C",6122
+"293","Haifa","None","None",3,"None",3105
+"294","Haifa","Balcony","Inside",4,"A/C",4643
+"295","Tel Aviv","None","Outside",5,"A/C",6222
+"296","Jerusalem","Balcony","None",2,"None",3242
+"297","Jerusalem","None","None",3,"None",3962
+"298","Jerusalem","None","None",4,"A/C",4766
+"299","Tel Aviv","None","Inside",4,"None",5578
+"300","Jerusalem","Balcony","Outside",4,"A/C",5607
+"301","Tel Aviv","None","None",5,"None",6091
+"302","Haifa","None","Outside",2,"A/C",2481
+"303","Tel Aviv","Balcony","Inside",3,"None",5188
+"304","Tel Aviv","None","Outside",4,"None",5425
+"305","Jerusalem","Balcony","None",4,"None",4772
+"306","Jerusalem","None","Outside",2,"None",2880
+"307","Jerusalem","Balcony","Inside",5,"None",6188
+"308","Tel Aviv","Balcony","None",3,"A/C",5289
+"309","Jerusalem","Balcony","None",5,"A/C",5823
+"310","Jerusalem","None","Outside",5,"None",5370
+"311","Jerusalem","Balcony","Outside",3,"None",4664
+"312","Jerusalem","None","None",4,"None",4590
+"313","Jerusalem","Balcony","Inside",5,"None",6117
+"314","Tel Aviv","Balcony","None",2,"None",3574
+"315","Haifa","None","Outside",2,"None",1970
+"316","Tel Aviv","Balcony","Outside",4,"A/C",6249
+"317","Jerusalem","Balcony","Inside",2,"A/C",3565
+"318","Haifa","None","Inside",5,"A/C",4938
+"319","Tel Aviv","None","None",5,"None",5812
+"320","Tel Aviv","None","None",4,"None",5108
+"321","Tel Aviv","None","Inside",3,"A/C",5231
+"322","Haifa","None","None",5,"A/C",4636
+"323","Tel Aviv","None","Outside",5,"None",6160
+"324","Haifa","None","None",4,"A/C",4051
+"325","Haifa","Balcony","Inside",2,"A/C",2826
+"326","Jerusalem","None","Inside",4,"A/C",5249
+"327","Tel Aviv","Balcony","None",2,"A/C",3951
+"328","Haifa","None","None",2,"None",1725
+"329","Haifa","Balcony","Outside",5,"A/C",5132
+"330","Tel Aviv","Balcony","Outside",4,"A/C",6068
+"331","Haifa","Balcony","None",2,"A/C",2418
+"332","Tel Aviv","None","Outside",5,"A/C",6234
+"333","Jerusalem","Balcony","None",5,"A/C",5769
+"334","Haifa","None","Outside",3,"None",3166
+"335","Haifa","Balcony","None",5,"A/C",4833
+"336","Jerusalem","Balcony","None",3,"A/C",4513
+"337","Haifa","None","None",2,"None",1738
+"338","Tel Aviv","Balcony","Inside",5,"A/C",6741
+"339","Jerusalem","Balcony","None",3,"None",4340
+"340","Haifa","Balcony","Inside",2,"A/C",2929
+"341","Tel Aviv","None","Outside",3,"None",4639
+"342","Jerusalem","Balcony","None",5,"None",5787
+"343","Haifa","Balcony","Inside",3,"A/C",3869
+"344","Tel Aviv","None","Outside",3,"None",4677
+"345","Tel Aviv","Balcony","Inside",2,"A/C",4371
+"346","Jerusalem","Balcony","Inside",2,"None",3525
+"347","Tel Aviv","None","Inside",3,"None",4964
+"348","Tel Aviv","Balcony","None",2,"None",3932
+"349","Haifa","None","Inside",3,"A/C",3542
+"350","Jerusalem","Balcony","None",2,"None",3037
+"351","Tel Aviv","Balcony","None",2,"A/C",3952
+"352","Tel Aviv","Balcony","None",2,"None",3892
+"353","Jerusalem","None","Outside",3,"None",4101
+"354","Haifa","None","Inside",4,"A/C",4212
+"355","Haifa","Balcony","None",3,"None",3406
+"356","Tel Aviv","None","Inside",4,"A/C",5774
+"357","Jerusalem","Balcony","Outside",5,"A/C",5954
+"358","Jerusalem","None","None",2,"None",2615
+"359","Haifa","None","None",2,"A/C",2025
+"360","Jerusalem","Balcony","None",2,"A/C",3336
+"361","Jerusalem","None","Outside",4,"None",4792
+"362","Jerusalem","None","Outside",3,"None",4152
+"363","Jerusalem","Balcony","None",2,"None",2971
+"364","Tel Aviv","None","Outside",3,"None",4594
+"365","Jerusalem","Balcony","Inside",3,"A/C",5011
+"366","Haifa","None","Outside",3,"None",3183
+"367","Tel Aviv","None","Outside",2,"A/C",3761
+"368","Haifa","Balcony","None",5,"A/C",4980
+"369","Jerusalem","Balcony","Inside",3,"A/C",4909
+"370","Jerusalem","Balcony","Inside",5,"A/C",6412
+"371","Tel Aviv","Balcony","Outside",2,"None",4174
+"372","Haifa","Balcony","Outside",2,"A/C",2925
+"373","Jerusalem","Balcony","Inside",2,"None",3635
+"374","Tel Aviv","None","None",5,"A/C",6343
+"375","Jerusalem","Balcony","Outside",2,"None",3481
+"376","Jerusalem","Balcony","Outside",2,"None",3246
+"377","Haifa","None","Outside",4,"A/C",4283
+"378","Haifa","None","Outside",5,"A/C",4771
+"379","Haifa","None","Inside",4,"A/C",4120
+"380","Haifa","None","Outside",5,"A/C",4953
+"381","Haifa","Balcony","Outside",5,"A/C",5316
+"382","Haifa","Balcony","None",3,"A/C",3730
+"383","Haifa","Balcony","None",3,"None",3442
+"384","Haifa","Balcony","None",4,"None",4244
+"385","Haifa","None","None",4,"None",3623
+"386","Jerusalem","Balcony","Inside",2,"None",3511
+"387","Jerusalem","Balcony","Outside",3,"None",4400
+"388","Haifa","Balcony","Outside",3,"A/C",3815
+"389","Jerusalem","Balcony","Inside",5,"A/C",6070
+"390","Tel Aviv","None","Outside",4,"A/C",5545
+"391","Jerusalem","None","None",5,"None",5332
+"392","Tel Aviv","None","None",5,"None",5734
+"393","Haifa","None","Inside",5,"None",4646
+"394","Tel Aviv","Balcony","Outside",5,"None",6494
+"395","Jerusalem","None","Inside",2,"None",3132
+"396","Tel Aviv","Balcony","None",5,"None",6251
+"397","Tel Aviv","Balcony","Outside",5,"None",6639
+"398","Jerusalem","None","None",5,"None",5279
+"399","Tel Aviv","Balcony","Outside",3,"None",5011
+"400","Tel Aviv","None","Outside",4,"A/C",5515
+"401","Jerusalem","None","Outside",3,"None",4154
+"402","Jerusalem","None","Outside",5,"A/C",5894
+"403","Haifa","None","None",5,"None",4571
+"404","Haifa","None","Inside",5,"None",4817
+"405","Haifa","None","Inside",4,"A/C",4501
+"406","Haifa","None","Inside",2,"A/C",2661
+"407","Jerusalem","None","Outside",5,"None",5710
+"408","Haifa","Balcony","Inside",2,"None",2411
+"409","Tel Aviv","Balcony","Inside",3,"A/C",5553
+"410","Jerusalem","None","Inside",2,"A/C",3511
+"411","Jerusalem","None","None",5,"A/C",5547
+"412","Jerusalem","None","Inside",2,"None",3049
+"413","Tel Aviv","None","Outside",4,"None",5467
+"414","Jerusalem","Balcony","None",2,"A/C",3300
+"415","Jerusalem","Balcony","Inside",4,"A/C",5637
+"416","Jerusalem","Balcony","Inside",4,"None",5126
+"417","Jerusalem","Balcony","Inside",3,"None",4572
+"418","Jerusalem","None","Inside",2,"None",3311
+"419","Jerusalem","Balcony","Outside",4,"None",5008
+"420","Jerusalem","None","Outside",5,"None",5490
+"421","Haifa","None","Inside",2,"A/C",2558
+"422","Tel Aviv","Balcony","None",2,"None",3684
+"423","Haifa","None","None",4,"A/C",3997
+"424","Haifa","Balcony","None",5,"None",4624
+"425","Jerusalem","None","Inside",3,"None",4079
+"426","Haifa","Balcony","Outside",3,"A/C",3654
+"427","Tel Aviv","None","Inside",3,"None",4878
+"428","Jerusalem","None","Inside",3,"A/C",4428
+"429","Tel Aviv","Balcony","Outside",4,"None",5840
+"430","Haifa","Balcony","Outside",4,"A/C",4414
+"431","Jerusalem","Balcony","Outside",4,"A/C",5630
+"432","Jerusalem","None","Outside",2,"A/C",3425
+"433","Haifa","Balcony","None",3,"A/C",3472
+"434","Jerusalem","None","Inside",2,"A/C",3313
+"435","Jerusalem","Balcony","Inside",5,"A/C",6406
+"436","Jerusalem","Balcony","None",5,"A/C",6002
+"437","Tel Aviv","Balcony","Inside",5,"None",6694
+"438","Jerusalem","Balcony","Outside",2,"None",3342
+"439","Jerusalem","Balcony","Inside",2,"A/C",3568
+"440","Jerusalem","Balcony","None",5,"A/C",5815
+"441","Tel Aviv","None","None",2,"A/C",3741
+"442","Haifa","None","None",2,"A/C",2085
+"443","Haifa","Balcony","None",5,"A/C",5055
+"444","Haifa","None","Inside",5,"None",4814
+"445","Jerusalem","Balcony","Inside",4,"A/C",5467
+"446","Tel Aviv","None","None",2,"None",3521
+"447","Tel Aviv","Balcony","None",2,"None",3772
+"448","Tel Aviv","None","Inside",2,"A/C",4077
+"449","Tel Aviv","Balcony","None",2,"None",3926
+"450","Jerusalem","Balcony","None",4,"None",4982
+"451","Jerusalem","None","None",3,"A/C",4056
+"452","Haifa","None","Outside",2,"None",2138
+"453","Jerusalem","None","Inside",3,"A/C",4424
+"454","Haifa","Balcony","Outside",5,"A/C",5183
+"455","Tel Aviv","None","Inside",3,"A/C",5302
+"456","Haifa","None","None",5,"None",4307
+"457","Haifa","Balcony","Outside",4,"A/C",4378
+"458","Tel Aviv","None","None",4,"None",5360
+"459","Haifa","None","Outside",3,"None",3267
+"460","Tel Aviv","None","Inside",2,"None",3736
+"461","Tel Aviv","None","Outside",2,"None",3560
+"462","Tel Aviv","None","Outside",5,"None",5972
+"463","Tel Aviv","Balcony","None",4,"None",5680
+"464","Haifa","None","Outside",3,"A/C",3423
+"465","Haifa","None","Outside",2,"A/C",2456
+"466","Jerusalem","Balcony","None",3,"A/C",4472
+"467","Tel Aviv","Balcony","Outside",3,"None",5128
+"468","Haifa","Balcony","None",2,"None",2125
+"469","Tel Aviv","None","None",3,"None",4412
+"470","Jerusalem","None","Outside",2,"None",2906
+"471","Jerusalem","None","None",2,"None",2859
+"472","Tel Aviv","None","Outside",5,"A/C",6585
+"473","Jerusalem","None","Outside",2,"None",3176
+"474","Haifa","Balcony","Outside",4,"None",4268
+"475","Jerusalem","Balcony","None",5,"None",5829
+"476","Haifa","Balcony","Outside",4,"A/C",4359
+"477","Tel Aviv","Balcony","None",2,"A/C",3948
+"478","Jerusalem","None","None",4,"None",4664
+"479","Haifa","Balcony","Outside",3,"A/C",4050
+"480","Jerusalem","None","None",2,"A/C",3163
+"481","Haifa","None","Inside",4,"None",3970
+"482","Jerusalem","Balcony","Inside",5,"None",6058
+"483","Haifa","Balcony","Inside",5,"A/C",5471
+"484","Jerusalem","None","None",2,"None",2727
+"485","Tel Aviv","Balcony","Outside",4,"A/C",6136
+"486","Tel Aviv","Balcony","Inside",4,"A/C",6228
+"487","Tel Aviv","Balcony","None",3,"A/C",5254
+"488","Tel Aviv","None","Outside",2,"A/C",4020
+"489","Haifa","Balcony","None",5,"None",4746
+"490","Haifa","None","Outside",3,"A/C",3655
+"491","Jerusalem","None","None",2,"None",2717
+"492","Haifa","Balcony","Outside",3,"A/C",3762
+"493","Jerusalem","Balcony","None",3,"A/C",4488
+"494","Jerusalem","None","None",3,"None",3700
+"495","Tel Aviv","Balcony","Outside",2,"A/C",4444
+"496","Haifa","Balcony","None",4,"A/C",4358
+"497","Haifa","Balcony","Inside",4,"A/C",4825
+"498","Haifa","None","Outside",3,"A/C",3575
+"499","Tel Aviv","None","Outside",2,"A/C",3754
+"500","Haifa","None","Outside",3,"A/C",3446
+"501","Haifa","None","Outside",5,"A/C",4712
+"502","Haifa","None","Outside",3,"A/C",3624
+"503","Jerusalem","None","None",4,"A/C",4955
+"504","Jerusalem","Balcony","None",5,"A/C",5978
+"505","Tel Aviv","Balcony","None",4,"None",5505
+"506","Tel Aviv","None","Outside",4,"A/C",5510
+"507","Tel Aviv","Balcony","None",4,"A/C",5969
+"508","Jerusalem","None","None",5,"None",5168
+"509","Haifa","Balcony","Inside",4,"A/C",4732
+"510","Tel Aviv","None","Outside",3,"A/C",5023
+"511","Jerusalem","None","Inside",2,"A/C",3586
+"512","Jerusalem","None","Outside",3,"None",4067
+"513","Haifa","None","None",4,"A/C",4076
+"514","Haifa","Balcony","Outside",4,"None",4287
+"515","Tel Aviv","None","None",2,"A/C",3517
+"516","Haifa","None","Outside",3,"None",3259
+"517","Jerusalem","Balcony","Outside",5,"None",5909
+"518","Haifa","Balcony","None",2,"A/C",2393
+"519","Tel Aviv","Balcony","Inside",5,"None",6548
+"520","Tel Aviv","None","Outside",2,"A/C",4029
+"521","Jerusalem","None","Inside",3,"None",4186
+"522","Haifa","None","Inside",5,"A/C",4986
+"523","Tel Aviv","Balcony","Inside",5,"A/C",6769
+"524","Jerusalem","Balcony","Outside",3,"None",4454
+"525","Tel Aviv","Balcony","Outside",5,"None",6503
+"526","Haifa","None","Inside",2,"A/C",2512
+"527","Tel Aviv","None","Outside",2,"None",3796
+"528","Tel Aviv","Balcony","Outside",2,"None",3819
+"529","Haifa","None","Outside",4,"A/C",4092
+"530","Haifa","None","Inside",3,"None",3434
+"531","Jerusalem","Balcony","Outside",4,"None",5255
+"532","Haifa","Balcony","None",4,"None",4042
+"533","Jerusalem","Balcony","Outside",5,"None",5855
+"534","Tel Aviv","Balcony","Inside",5,"None",6618
+"535","Tel Aviv","Balcony","Outside",3,"None",4970
+"536","Tel Aviv","Balcony","Outside",2,"A/C",4433
+"537","Tel Aviv","Balcony","None",5,"None",6273
+"538","Tel Aviv","None","None",2,"A/C",3517
+"539","Haifa","None","None",4,"A/C",3842
+"540","Jerusalem","Balcony","Inside",2,"None",3455
+"541","Tel Aviv","Balcony","None",3,"None",4975
+"542","Tel Aviv","None","None",4,"None",5211
+"543","Jerusalem","None","Inside",4,"A/C",5230
+"544","Haifa","Balcony","Inside",5,"A/C",5298
+"545","Haifa","None","Outside",3,"None",3222
+"546","Haifa","Balcony","Outside",3,"None",3384
+"547","Haifa","Balcony","None",5,"A/C",5137
+"548","Haifa","Balcony","None",4,"A/C",4461
+"549","Tel Aviv","Balcony","Inside",4,"A/C",5987
+"550","Jerusalem","Balcony","Outside",4,"A/C",5268
+"551","Jerusalem","None","Inside",4,"None",5085
+"552","Haifa","Balcony","None",3,"A/C",3790
+"553","Tel Aviv","None","None",5,"A/C",6318
+"554","Haifa","None","Outside",3,"None",3218
+"555","Haifa","Balcony","Outside",3,"A/C",3708
+"556","Jerusalem","Balcony","Outside",5,"None",5731
+"557","Haifa","None","Outside",4,"None",3997
+"558","Jerusalem","None","None",3,"None",4025
+"559","Jerusalem","None","Outside",2,"A/C",3285
+"560","Haifa","None","Outside",5,"None",4727
+"561","Jerusalem","Balcony","Outside",4,"None",5055
+"562","Haifa","None","None",5,"None",4412
+"563","Tel Aviv","Balcony","None",2,"None",3854
+"564","Tel Aviv","None","Inside",3,"A/C",4981
+"565","Haifa","Balcony","Outside",3,"None",3637
+"566","Haifa","Balcony","None",3,"A/C",3766
+"567","Jerusalem","None","Outside",4,"A/C",5176
+"568","Haifa","Balcony","Inside",4,"None",4522
+"569","Haifa","None","Inside",3,"A/C",3538
+"570","Jerusalem","None","None",4,"None",4559
+"571","Jerusalem","None","Outside",4,"None",4832
+"572","Jerusalem","None","None",4,"None",4416
+"573","Haifa","None","None",4,"A/C",3981
+"574","Tel Aviv","Balcony","None",4,"None",5491
+"575","Haifa","Balcony","Inside",2,"None",2607
+"576","Jerusalem","Balcony","Inside",3,"None",4420
+"577","Jerusalem","Balcony","Outside",4,"None",5321
+"578","Jerusalem","None","Outside",2,"None",2995
+"579","Jerusalem","Balcony","Outside",3,"None",4663
+"580","Tel Aviv","Balcony","None",4,"A/C",5690
+"581","Haifa","Balcony","None",5,"None",4691
+"582","Tel Aviv","None","Outside",5,"None",6097
+"583","Haifa","None","None",5,"A/C",4569
+"584","Haifa","None","Outside",5,"A/C",5047
+"585","Haifa","Balcony","Outside",3,"A/C",4018
+"586","Haifa","None","Outside",3,"None",3251
+"587","Tel Aviv","Balcony","None",3,"None",4826
+"588","Haifa","Balcony","Inside",2,"A/C",2803
+"589","Jerusalem","None","None",2,"None",2719
+"590","Haifa","Balcony","Outside",3,"None",3650
+"591","Tel Aviv","None","Outside",3,"None",4914
+"592","Tel Aviv","Balcony","None",5,"A/C",6344
+"593","Tel Aviv","None","None",3,"A/C",4912
+"594","Tel Aviv","Balcony","Outside",5,"A/C",6562
+"595","Haifa","Balcony","Outside",2,"None",2294
+"596","Haifa","None","Inside",2,"A/C",2658
+"597","Tel Aviv","None","None",5,"None",5901
+"598","Jerusalem","None","None",5,"A/C",5580
+"599","Haifa","Balcony","None",4,"A/C",4261
+"600","Tel Aviv","Balcony","Outside",4,"None",5732
+"601","Jerusalem","Balcony","Inside",4,"None",5189
+"602","Tel Aviv","Balcony","Outside",2,"A/C",4086
+"603","Haifa","None","Inside",5,"None",4763
+"604","Jerusalem","Balcony","None",4,"None",4996
+"605","Haifa","Balcony","Outside",5,"None",5085
+"606","Jerusalem","Balcony","Outside",2,"None",3394
+"607","Jerusalem","None","None",4,"A/C",4767
+"608","Jerusalem","None","Outside",2,"None",3107
+"609","Jerusalem","Balcony","None",2,"A/C",3487
+"610","Jerusalem","None","None",3,"A/C",4237
+"611","Jerusalem","Balcony","Inside",5,"None",5794
+"612","Jerusalem","Balcony","None",3,"A/C",4527
+"613","Tel Aviv","Balcony","Outside",5,"None",6570
+"614","Jerusalem","Balcony","Inside",5,"None",6180
+"615","Jerusalem","Balcony","Outside",4,"None",5094
+"616","Haifa","Balcony","Outside",5,"None",4871
+"617","Tel Aviv","None","None",3,"A/C",4692
+"618","Haifa","None","Outside",2,"None",2115
+"619","Jerusalem","Balcony","None",3,"None",4339
+"620","Tel Aviv","None","Inside",4,"None",5647
+"621","Jerusalem","Balcony","Outside",4,"None",5149
+"622","Haifa","None","Outside",2,"A/C",2557
+"623","Haifa","None","None",3,"None",2880
+"624","Tel Aviv","Balcony","None",2,"A/C",4211
+"625","Tel Aviv","None","None",3,"None",4566
+"626","Haifa","Balcony","None",3,"A/C",3762
+"627","Jerusalem","None","Inside",4,"A/C",5024
+"628","Haifa","None","None",4,"None",3831
+"629","Tel Aviv","Balcony","Outside",3,"A/C",5372
+"630","Jerusalem","Balcony","None",4,"None",5048
+"631","Jerusalem","None","Inside",4,"None",5095
+"632","Jerusalem","None","Outside",2,"A/C",3483
+"633","Tel Aviv","None","Inside",2,"A/C",4166
+"634","Tel Aviv","None","Outside",2,"A/C",4070
+"635","Jerusalem","Balcony","Outside",2,"A/C",3520
+"636","Haifa","Balcony","None",5,"None",4856
+"637","Tel Aviv","Balcony","None",3,"A/C",5123
+"638","Haifa","None","Inside",3,"None",3159
+"639","Jerusalem","None","Inside",5,"None",5539
+"640","Jerusalem","None","Inside",5,"None",5535
+"641","Tel Aviv","Balcony","None",5,"A/C",6323
+"642","Tel Aviv","None","None",5,"A/C",6165
+"643","Jerusalem","Balcony","Outside",2,"None",3247
+"644","Haifa","Balcony","None",5,"A/C",4897
+"645","Tel Aviv","None","Inside",3,"None",4965
+"646","Tel Aviv","Balcony","Inside",2,"A/C",4388
+"647","Tel Aviv","Balcony","Outside",2,"None",3947
+"648","Jerusalem","None","Outside",3,"A/C",4480
+"649","Haifa","None","None",4,"None",3737
+"650","Jerusalem","Balcony","None",2,"None",3006
+"651","Haifa","None","Outside",5,"None",4810
+"652","Haifa","None","None",3,"A/C",3141
+"653","Tel Aviv","None","None",4,"None",5196
+"654","Jerusalem","None","None",2,"A/C",3192
+"655","Jerusalem","None","None",4,"A/C",4686
+"656","Tel Aviv","Balcony","Inside",5,"None",6472
+"657","Tel Aviv","Balcony","Inside",4,"None",6034
+"658","Tel Aviv","None","None",2,"A/C",3802
+"659","Jerusalem","Balcony","Outside",4,"A/C",5399
+"660","Jerusalem","None","None",5,"None",5402
+"661","Haifa","Balcony","Outside",2,"A/C",2760
+"662","Tel Aviv","Balcony","None",4,"None",5452
+"663","Jerusalem","None","None",5,"None",5146
+"664","Tel Aviv","None","Outside",2,"A/C",3967
+"665","Tel Aviv","None","None",5,"A/C",6133
+"666","Haifa","None","Inside",4,"A/C",4121
+"667","Tel Aviv","None","None",2,"A/C",3826
+"668","Haifa","None","Inside",5,"A/C",4884
+"669","Jerusalem","None","Outside",2,"A/C",3273
+"670","Haifa","Balcony","Inside",2,"A/C",2921
+"671","Haifa","Balcony","Outside",3,"A/C",3888
+"672","Tel Aviv","Balcony","Outside",3,"A/C",5200
+"673","Jerusalem","Balcony","Inside",5,"A/C",6285
+"674","Haifa","None","Outside",5,"A/C",4957
+"675","Jerusalem","None","Outside",3,"None",4132
+"676","Jerusalem","Balcony","Outside",2,"A/C",3738
+"677","Haifa","Balcony","Inside",4,"A/C",4565
+"678","Jerusalem","Balcony","Inside",2,"A/C",3921
+"679","Haifa","None","Inside",3,"None",3489
+"680","Jerusalem","Balcony","Outside",2,"None",3184
+"681","Jerusalem","None","Outside",3,"None",3995
+"682","Haifa","Balcony","None",3,"A/C",3575
+"683","Haifa","Balcony","Inside",3,"A/C",3931
+"684","Jerusalem","None","Outside",4,"A/C",5212
+"685","Jerusalem","Balcony","None",2,"A/C",3388
+"686","Tel Aviv","Balcony","Inside",5,"A/C",6792
+"687","Haifa","Balcony","Inside",4,"None",4338
+"688","Jerusalem","Balcony","Outside",4,"A/C",5366
+"689","Tel Aviv","None","Inside",5,"None",6300
+"690","Tel Aviv","Balcony","Outside",5,"A/C",6691
+"691","Tel Aviv","Balcony","Inside",4,"None",5869
+"692","Tel Aviv","None","Inside",2,"None",3885
+"693","Tel Aviv","None","Inside",4,"None",5541
+"694","Tel Aviv","None","Outside",5,"A/C",6209
+"695","Haifa","Balcony","None",4,"A/C",4127
+"696","Haifa","Balcony","None",4,"None",3932
+"697","Jerusalem","Balcony","None",2,"A/C",3423
+"698","Haifa","None","Outside",3,"None",3069
+"699","Haifa","Balcony","Inside",5,"A/C",5248
+"700","Jerusalem","Balcony","Inside",2,"None",3513
+"701","Haifa","None","Inside",2,"None",2121
+"702","Tel Aviv","Balcony","Outside",3,"None",5255
+"703","Jerusalem","None","None",4,"A/C",4821
+"704","Haifa","Balcony","None",4,"None",4219
+"705","Tel Aviv","Balcony","None",5,"A/C",6366
+"706","Jerusalem","Balcony","Outside",5,"None",5773
+"707","Jerusalem","None","None",2,"A/C",3240
+"708","Tel Aviv","Balcony","Inside",5,"None",6399
+"709","Haifa","None","None",4,"A/C",4040
+"710","Jerusalem","None","Outside",3,"None",3975
+"711","Tel Aviv","Balcony","None",3,"A/C",5195
+"712","Jerusalem","None","None",5,"None",5209
+"713","Jerusalem","Balcony","Inside",3,"A/C",4795
+"714","Jerusalem","None","Inside",2,"A/C",3222
+"715","Tel Aviv","None","Outside",2,"None",3499
+"716","Tel Aviv","None","Outside",4,"None",5283
+"717","Tel Aviv","None","Outside",5,"A/C",6456
+"718","Jerusalem","Balcony","None",3,"None",4387
+"719","Jerusalem","Balcony","Outside",5,"A/C",6054
+"720","Jerusalem","None","None",5,"None",5475
+"721","Haifa","None","Inside",4,"A/C",4412
+"722","Haifa","None","Inside",4,"None",3950
+"723","Haifa","None","None",3,"None",3110
+"724","Haifa","Balcony","Outside",4,"None",4353
+"725","Haifa","Balcony","Outside",3,"None",3744
+"726","Haifa","None","Inside",4,"None",4135
+"727","Jerusalem","Balcony","Inside",5,"None",6112
+"728","Tel Aviv","None","None",2,"None",3506
+"729","Tel Aviv","None","Outside",4,"A/C",5798
+"730","Tel Aviv","None","None",3,"None",4657
+"731","Tel Aviv","None","Outside",3,"None",4565
+"732","Haifa","Balcony","Outside",4,"None",4151
+"733","Haifa","None","Inside",5,"None",4674
+"734","Tel Aviv","Balcony","Outside",4,"A/C",5911
+"735","Haifa","None","Outside",4,"A/C",4020
+"736","Tel Aviv","Balcony","None",4,"A/C",5936
+"737","Tel Aviv","Balcony","Inside",5,"A/C",6871
+"738","Haifa","None","Inside",5,"A/C",4979
+"739","Haifa","Balcony","None",2,"A/C",2525
+"740","Haifa","None","None",2,"A/C",2175
+"741","Tel Aviv","Balcony","Inside",4,"None",6054
+"742","Haifa","Balcony","Outside",5,"A/C",5263
+"743","Jerusalem","Balcony","None",5,"None",5795
+"744","Haifa","None","None",2,"None",1743
+"745","Haifa","None","None",2,"None",1769
+"746","Haifa","Balcony","Outside",2,"A/C",2856
+"747","Haifa","None","None",5,"A/C",4548
+"748","Haifa","Balcony","None",4,"A/C",4340
+"749","Haifa","None","None",5,"None",4388
+"750","Haifa","None","None",4,"A/C",3880
+"751","Haifa","None","None",2,"A/C",2284
+"752","Haifa","Balcony","Outside",3,"A/C",4042
+"753","Jerusalem","None","Inside",5,"A/C",6066
+"754","Jerusalem","None","Outside",5,"None",5366
+"755","Tel Aviv","None","Outside",5,"None",6274
+"756","Jerusalem","None","Outside",3,"None",4096
+"757","Haifa","None","Inside",2,"A/C",2676
+"758","Jerusalem","None","None",3,"None",3963
+"759","Tel Aviv","None","Outside",2,"A/C",3770
+"760","Tel Aviv","Balcony","Inside",2,"None",3945
+"761","Haifa","Balcony","None",2,"None",2072
+"762","Haifa","Balcony","None",3,"None",3422
+"763","Haifa","Balcony","Outside",5,"A/C",5149
+"764","Haifa","Balcony","None",2,"None",2270
+"765","Tel Aviv","None","None",4,"None",5245
+"766","Jerusalem","None","None",4,"None",4772
+"767","Tel Aviv","None","Inside",5,"None",6337
+"768","Tel Aviv","None","Inside",4,"A/C",5858
+"769","Jerusalem","Balcony","Outside",5,"None",5702
+"770","Tel Aviv","Balcony","Inside",3,"A/C",5268
+"771","Jerusalem","Balcony","Inside",2,"A/C",3938
+"772","Jerusalem","None","None",2,"A/C",2944
+"773","Jerusalem","None","Inside",5,"None",5585
+"774","Tel Aviv","Balcony","Outside",3,"A/C",5430
+"775","Tel Aviv","None","Outside",4,"A/C",5871
+"776","Haifa","None","Outside",5,"A/C",5043
+"777","Tel Aviv","None","Outside",5,"None",6133
+"778","Tel Aviv","Balcony","Outside",5,"None",6621
+"779","Haifa","None","Inside",5,"A/C",5101
+"780","Haifa","Balcony","Outside",5,"None",4929
+"781","Haifa","None","Inside",4,"A/C",4464
+"782","Haifa","None","Inside",2,"None",2424
+"783","Jerusalem","None","Inside",4,"A/C",5349
+"784","Tel Aviv","None","None",4,"A/C",5477
+"785","Haifa","None","Outside",3,"None",3407
+"786","Haifa","Balcony","None",5,"None",4795
+"787","Tel Aviv","Balcony","Inside",3,"None",5184
+"788","Jerusalem","None","Inside",3,"None",4422
+"789","Haifa","None","Inside",3,"None",3352
+"790","Haifa","None","Outside",3,"None",3071
+"791","Tel Aviv","Balcony","Outside",4,"A/C",5944
+"792","Haifa","Balcony","None",3,"A/C",3606
+"793","Haifa","Balcony","Outside",4,"A/C",4576
+"794","Haifa","None","Inside",3,"A/C",3412
+"795","Jerusalem","None","None",2,"A/C",3268
+"796","Tel Aviv","None","None",4,"A/C",5353
+"797","Tel Aviv","Balcony","None",2,"A/C",3848
+"798","Tel Aviv","Balcony","None",3,"None",4834
+"799","Tel Aviv","Balcony","Outside",2,"None",3971
+"800","Jerusalem","None","Outside",4,"None",4754
+"801","Tel Aviv","None","None",4,"None",5314
+"802","Tel Aviv","Balcony","None",4,"A/C",5925
+"803","Jerusalem","Balcony","None",4,"None",4866
+"804","Tel Aviv","Balcony","None",4,"None",5505
+"805","Haifa","Balcony","Inside",5,"None",5208
+"806","Tel Aviv","Balcony","None",2,"None",3608
+"807","Jerusalem","Balcony","Outside",5,"None",6078
+"808","Tel Aviv","None","Inside",2,"A/C",3941
+"809","Haifa","None","Outside",5,"None",4739
+"810","Jerusalem","Balcony","Outside",5,"A/C",6091
+"811","Tel Aviv","Balcony","Inside",5,"A/C",6984
+"812","Haifa","Balcony","None",4,"None",4019
+"813","Tel Aviv","Balcony","None",2,"None",3681
+"814","Jerusalem","None","Outside",4,"A/C",5290
+"815","Haifa","Balcony","Inside",4,"None",4192
+"816","Haifa","None","None",2,"None",1945
+"817","Tel Aviv","Balcony","Inside",5,"A/C",6934
+"818","Haifa","None","Outside",2,"A/C",2542
+"819","Tel Aviv","Balcony","Outside",2,"A/C",4248
+"820","Haifa","None","Inside",5,"A/C",5199
+"821","Jerusalem","Balcony","Outside",4,"A/C",5439
+"822","Haifa","None","Outside",2,"A/C",2299
+"823","Haifa","None","None",2,"None",1990
+"824","Tel Aviv","Balcony","Inside",4,"A/C",6315
+"825","Jerusalem","None","Outside",2,"None",3186
+"826","Haifa","Balcony","Outside",3,"None",3641
+"827","Tel Aviv","Balcony","Inside",4,"None",5930
+"828","Tel Aviv","Balcony","Outside",2,"A/C",4087
+"829","Haifa","None","Inside",2,"None",2076
+"830","Haifa","Balcony","Inside",5,"None",5245
+"831","Tel Aviv","Balcony","None",2,"None",3906
+"832","Haifa","Balcony","Outside",4,"None",4312
+"833","Jerusalem","None","Inside",2,"A/C",3242
+"834","Tel Aviv","Balcony","Inside",2,"None",3988
+"835","Haifa","Balcony","Inside",5,"None",4911
+"836","Jerusalem","Balcony","None",3,"A/C",4714
+"837","Tel Aviv","Balcony","Inside",3,"A/C",5313
+"838","Jerusalem","Balcony","Inside",2,"A/C",3677
+"839","Jerusalem","None","Outside",5,"None",5674
+"840","Tel Aviv","None","Inside",4,"None",5549
+"841","Jerusalem","Balcony","Outside",2,"A/C",3575
+"842","Jerusalem","Balcony","Inside",3,"A/C",4733
+"843","Tel Aviv","None","None",4,"A/C",5273
+"844","Tel Aviv","None","Inside",2,"A/C",4205
+"845","Jerusalem","Balcony","Inside",5,"A/C",6202
+"846","Haifa","None","None",4,"None",3568
+"847","Haifa","Balcony","None",4,"A/C",4431
+"848","Jerusalem","None","Outside",2,"None",3108
+"849","Jerusalem","Balcony","None",4,"A/C",5160
+"850","Jerusalem","None","Outside",2,"A/C",3169
+"851","Jerusalem","Balcony","Outside",4,"A/C",5401
+"852","Jerusalem","Balcony","None",3,"A/C",4534
+"853","Jerusalem","None","Inside",4,"None",4865
+"854","Tel Aviv","Balcony","Inside",5,"A/C",6775
+"855","Haifa","Balcony","Outside",4,"A/C",4479
+"856","Tel Aviv","Balcony","None",2,"None",3763
+"857","Tel Aviv","None","None",3,"A/C",4660
+"858","Haifa","Balcony","None",4,"None",4230
+"859","Tel Aviv","Balcony","Outside",5,"None",6307
+"860","Haifa","Balcony","None",3,"A/C",3510
+"861","Tel Aviv","None","Outside",5,"A/C",6527
+"862","Haifa","Balcony","None",4,"A/C",4512
+"863","Haifa","None","Inside",2,"None",2205
+"864","Tel Aviv","Balcony","Outside",2,"None",4155
+"865","Jerusalem","Balcony","Inside",3,"None",4584
+"866","Jerusalem","None","Inside",5,"None",5563
+"867","Jerusalem","None","Outside",4,"A/C",4979
+"868","Jerusalem","Balcony","Inside",5,"A/C",6190
+"869","Haifa","Balcony","Outside",2,"None",2363
+"870","Haifa","Balcony","Outside",2,"A/C",2865
+"871","Haifa","None","Outside",2,"A/C",2461
+"872","Haifa","Balcony","None",5,"A/C",4922
+"873","Haifa","Balcony","Inside",5,"A/C",5413
+"874","Tel Aviv","None","Inside",2,"None",3818
+"875","Tel Aviv","Balcony","None",4,"A/C",5759
+"876","Tel Aviv","None","None",5,"A/C",6142
+"877","Haifa","None","Outside",3,"None",3308
+"878","Jerusalem","Balcony","Outside",4,"None",4990
+"879","Jerusalem","None","Outside",2,"None",3193
+"880","Jerusalem","None","Outside",5,"A/C",5941
+"881","Haifa","None","None",4,"None",3553
+"882","Haifa","Balcony","Outside",2,"None",2311
+"883","Jerusalem","None","Inside",2,"None",3085
+"884","Tel Aviv","Balcony","None",5,"None",6435
+"885","Jerusalem","Balcony","Outside",5,"None",6077
+"886","Haifa","Balcony","Outside",5,"A/C",5329
+"887","Jerusalem","Balcony","None",2,"A/C",3377
+"888","Tel Aviv","Balcony","Outside",4,"None",5654
+"889","Haifa","Balcony","Outside",3,"None",3629
+"890","Haifa","Balcony","Inside",2,"None",2760
+"891","Haifa","Balcony","None",5,"None",4614
+"892","Jerusalem","None","Inside",5,"A/C",5819
+"893","Haifa","None","Outside",3,"None",3377
+"894","Haifa","None","Inside",4,"A/C",4172
+"895","Tel Aviv","None","None",2,"None",3282
+"896","Haifa","Balcony","Inside",3,"None",3792
+"897","Tel Aviv","Balcony","None",5,"A/C",6421
+"898","Jerusalem","Balcony","Outside",3,"None",4367
+"899","Tel Aviv","None","None",3,"A/C",4867
+"900","Haifa","None","Outside",4,"A/C",4251
+"901","Tel Aviv","None","Outside",2,"None",3580
+"902","Haifa","None","Outside",3,"None",3238
+"903","Haifa","None","Inside",5,"None",4940
+"904","Tel Aviv","Balcony","Inside",2,"None",4028
+"905","Jerusalem","Balcony","Inside",5,"A/C",6403
+"906","Tel Aviv","None","Outside",3,"A/C",5119
+"907","Tel Aviv","Balcony","Outside",3,"A/C",5409
+"908","Tel Aviv","Balcony","None",2,"A/C",4031
+"909","Jerusalem","Balcony","Outside",2,"None",3574
+"910","Jerusalem","None","None",3,"None",3897
+"911","Haifa","Balcony","None",2,"None",2104
+"912","Haifa","Balcony","None",4,"None",4005
+"913","Haifa","Balcony","None",5,"A/C",5093
+"914","Haifa","None","Outside",4,"None",3857
+"915","Jerusalem","None","None",4,"None",4657
+"916","Tel Aviv","None","None",2,"A/C",3486
+"917","Jerusalem","Balcony","Inside",5,"None",5926
+"918","Tel Aviv","None","Outside",2,"A/C",3937
+"919","Tel Aviv","Balcony","Outside",5,"A/C",6917
+"920","Tel Aviv","Balcony","Inside",3,"None",5163
+"921","Jerusalem","Balcony","Outside",3,"None",4661
+"922","Jerusalem","None","Inside",2,"None",3167
+"923","Haifa","Balcony","Outside",2,"A/C",2828
+"924","Tel Aviv","None","None",4,"A/C",5625
+"925","Haifa","None","Inside",3,"A/C",3519
+"926","Tel Aviv","None","Outside",3,"A/C",5083
+"927","Haifa","None","Outside",2,"A/C",2327
+"928","Haifa","Balcony","Outside",4,"None",4155
+"929","Haifa","None","None",3,"A/C",3218
+"930","Tel Aviv","Balcony","None",2,"None",3578
+"931","Jerusalem","None","None",4,"None",4646
+"932","Haifa","Balcony","Outside",2,"A/C",2923
+"933","Tel Aviv","None","None",3,"A/C",4894
+"934","Haifa","None","Inside",5,"None",4847
+"935","Jerusalem","Balcony","Inside",3,"A/C",4889
+"936","Tel Aviv","Balcony","Inside",2,"None",3915
+"937","Haifa","Balcony","Outside",3,"A/C",4046
+"938","Jerusalem","None","Outside",4,"None",4881
+"939","Haifa","Balcony","Outside",4,"None",4425
+"940","Tel Aviv","None","Outside",3,"None",4563
+"941","Tel Aviv","Balcony","Outside",2,"A/C",4339
+"942","Haifa","None","None",2,"A/C",2092
+"943","Jerusalem","None","Inside",2,"None",3144
+"944","Jerusalem","Balcony","Inside",4,"None",5130
+"945","Haifa","Balcony","None",3,"A/C",3820
+"946","Jerusalem","Balcony","Outside",3,"A/C",4676
+"947","Tel Aviv","None","Outside",4,"None",5423
+"948","Haifa","None","None",5,"None",4496
+"949","Tel Aviv","None","None",4,"A/C",5510
+"950","Haifa","None","None",2,"A/C",2368
+"951","Haifa","None","Outside",2,"A/C",2576
+"952","Haifa","Balcony","Outside",2,"None",2631
+"953","Tel Aviv","None","Outside",2,"A/C",3900
+"954","Haifa","Balcony","Outside",3,"A/C",3920
+"955","Haifa","None","None",4,"None",3543
+"956","Haifa","None","Inside",4,"A/C",4159
+"957","Haifa","None","Inside",2,"A/C",2678
+"958","Jerusalem","Balcony","Outside",5,"A/C",6158
+"959","Haifa","None","None",5,"None",4280
+"960","Tel Aviv","None","None",3,"A/C",4878
+"961","Haifa","None","None",2,"None",2092
+"962","Haifa","None","Inside",4,"A/C",4472
+"963","Tel Aviv","None","Outside",4,"A/C",5628
+"964","Tel Aviv","None","Inside",5,"A/C",6478
+"965","Jerusalem","Balcony","None",3,"A/C",4424
+"966","Jerusalem","None","None",2,"A/C",3040
+"967","Jerusalem","Balcony","Outside",2,"A/C",3798
+"968","Jerusalem","Balcony","Inside",3,"None",4402
+"969","Tel Aviv","Balcony","Inside",4,"A/C",6312
+"970","Jerusalem","None","Outside",5,"A/C",5614
+"971","Tel Aviv","Balcony","Inside",2,"None",4164
+"972","Haifa","Balcony","Inside",3,"None",3729
+"973","Tel Aviv","None","None",3,"A/C",4616
+"974","Haifa","None","None",5,"A/C",4543
+"975","Tel Aviv","Balcony","None",4,"None",5549
+"976","Jerusalem","Balcony","Inside",5,"None",5934
+"977","Jerusalem","Balcony","Inside",2,"A/C",3910
+"978","Haifa","None","Outside",3,"None",3069
+"979","Tel Aviv","None","None",4,"A/C",5490
+"980","Tel Aviv","None","Inside",5,"None",6334
+"981","Tel Aviv","None","None",2,"None",3247
+"982","Tel Aviv","Balcony","None",4,"A/C",5995
+"983","Haifa","None","Outside",5,"A/C",5082
+"984","Tel Aviv","None","None",2,"A/C",3847
+"985","Tel Aviv","None","None",5,"None",6096
+"986","Tel Aviv","Balcony","None",4,"A/C",5650
+"987","Jerusalem","Balcony","Inside",5,"A/C",6455
+"988","Jerusalem","Balcony","Inside",2,"A/C",3874
+"989","Haifa","None","Outside",2,"A/C",2325
+"990","Tel Aviv","None","Outside",3,"None",4836
+"991","Haifa","None","Inside",5,"None",4926
+"992","Haifa","Balcony","Outside",5,"None",5140
+"993","Haifa","None","Inside",5,"None",4719
+"994","Tel Aviv","None","None",2,"A/C",3680
+"995","Tel Aviv","None","None",3,"A/C",4933
+"996","Jerusalem","Balcony","Inside",3,"A/C",4834
+"997","Tel Aviv","None","None",5,"None",5845
+"998","Jerusalem","Balcony","Inside",3,"A/C",4706
+"999","Haifa","None","Inside",3,"A/C",3689
+"1000","Tel Aviv","Balcony","Outside",3,"None",4920
+"1001","Haifa","Balcony","None",4,"None",4117
+"1002","Tel Aviv","Balcony","None",3,"A/C",5131
+"1003","Tel Aviv","Balcony","Inside",3,"A/C",5264
+"1004","Haifa","None","None",3,"A/C",3139
+"1005","Haifa","Balcony","Outside",2,"A/C",2600
+"1006","Jerusalem","None","Inside",4,"None",4812
+"1007","Tel Aviv","None","None",4,"None",5183
+"1008","Tel Aviv","None","Inside",4,"None",5628
+"1009","Jerusalem","None","None",5,"A/C",5690
+"1010","Haifa","None","None",3,"None",2935
+"1011","Haifa","None","Outside",3,"A/C",3365
+"1012","Tel Aviv","None","None",5,"A/C",6013
+"1013","Haifa","None","Inside",5,"None",4868
+"1014","Tel Aviv","Balcony","None",3,"None",4932
+"1015","Jerusalem","None","Inside",2,"None",3309
+"1016","Haifa","None","Outside",4,"A/C",4078
+"1017","Jerusalem","Balcony","None",3,"A/C",4376
+"1018","Jerusalem","None","Outside",2,"A/C",3451
+"1019","Haifa","None","Outside",3,"A/C",3645
+"1020","Tel Aviv","Balcony","Outside",5,"None",6360
+"1021","Tel Aviv","None","Outside",5,"A/C",6542
+"1022","Jerusalem","Balcony","Inside",3,"None",4436
+"1023","Haifa","None","None",3,"A/C",3224
+"1024","Haifa","None","Inside",4,"None",4230
+"1025","Tel Aviv","Balcony","Inside",2,"A/C",4290
+"1026","Haifa","Balcony","Outside",4,"None",4339
+"1027","Haifa","None","None",4,"None",3600
+"1028","Tel Aviv","Balcony","Inside",5,"A/C",6877
+"1029","Tel Aviv","None","Inside",4,"None",5504
+"1030","Haifa","Balcony","None",5,"A/C",5197
+"1031","Jerusalem","Balcony","None",2,"A/C",3355
+"1032","Haifa","Balcony","Outside",2,"A/C",2876
+"1033","Tel Aviv","Balcony","Inside",5,"None",6788
+"1034","Jerusalem","Balcony","None",3,"A/C",4348
+"1035","Jerusalem","None","Outside",4,"A/C",5024
+"1036","Tel Aviv","None","None",4,"A/C",5401
+"1037","Haifa","None","None",4,"None",3789
+"1038","Haifa","Balcony","Inside",4,"A/C",4705
+"1039","Tel Aviv","Balcony","None",5,"None",6237
+"1040","Jerusalem","None","Inside",4,"A/C",5219
+"1041","Tel Aviv","Balcony","None",5,"A/C",6700
+"1042","Tel Aviv","None","Outside",4,"None",5355
+"1043","Haifa","None","Inside",5,"None",4746
+"1044","Haifa","None","Inside",2,"A/C",2654
+"1045","Jerusalem","Balcony","Outside",5,"A/C",6019
+"1046","Jerusalem","Balcony","Inside",2,"A/C",3732
+"1047","Jerusalem","None","Inside",3,"A/C",4592
+"1048","Haifa","None","Outside",4,"A/C",4275
+"1049","Tel Aviv","None","Inside",4,"None",5526
+"1050","Tel Aviv","None","Inside",2,"None",3679
+"1051","Haifa","Balcony","Outside",2,"None",2623
+"1052","Jerusalem","None","Outside",2,"A/C",3107
+"1053","Jerusalem","None","Inside",2,"A/C",3239
+"1054","Tel Aviv","Balcony","None",5,"A/C",6514
+"1055","Jerusalem","Balcony","Outside",3,"None",4528
+"1056","Tel Aviv","Balcony","Outside",3,"None",5003
+"1057","Haifa","Balcony","None",4,"A/C",4189
+"1058","Jerusalem","None","None",3,"None",3766
+"1059","Haifa","Balcony","Outside",4,"A/C",4447
+"1060","Jerusalem","None","Inside",3,"A/C",4620
+"1061","Tel Aviv","Balcony","None",2,"A/C",3979
+"1062","Jerusalem","None","Inside",2,"A/C",3505
+"1063","Haifa","None","Outside",2,"A/C",2281
+"1064","Tel Aviv","None","None",4,"A/C",5323
+"1065","Haifa","None","Inside",2,"None",2274
+"1066","Tel Aviv","Balcony","Inside",2,"A/C",4291
+"1067","Jerusalem","None","None",5,"A/C",5475
+"1068","Tel Aviv","Balcony","Inside",4,"A/C",6318
+"1069","Haifa","None","None",3,"A/C",3441
+"1070","Tel Aviv","Balcony","None",4,"None",5401
+"1071","Haifa","None","None",2,"A/C",2356
+"1072","Haifa","None","Inside",4,"None",4103
+"1073","Tel Aviv","Balcony","Inside",2,"None",4279
+"1074","Jerusalem","Balcony","Inside",3,"A/C",5042
+"1075","Jerusalem","None","Inside",4,"A/C",5185
+"1076","Jerusalem","None","Inside",5,"None",5495
+"1077","Tel Aviv","None","Inside",2,"A/C",4168
+"1078","Tel Aviv","None","None",3,"None",4457
+"1079","Haifa","None","Outside",2,"None",2144
+"1080","Jerusalem","None","None",4,"A/C",4888
+"1081","Haifa","Balcony","None",4,"None",3942
+"1082","Jerusalem","None","Inside",3,"A/C",4463
+"1083","Tel Aviv","None","None",4,"None",5112
+"1084","Jerusalem","Balcony","None",5,"None",5708
+"1085","Haifa","Balcony","Inside",5,"None",5172
+"1086","Haifa","None","Outside",2,"A/C",2433
+"1087","Tel Aviv","Balcony","Inside",3,"None",5202
+"1088","Tel Aviv","None","Outside",3,"None",4680
+"1089","Jerusalem","Balcony","Inside",5,"None",6144
+"1090","Tel Aviv","Balcony","Outside",4,"None",5920
+"1091","Haifa","None","Inside",3,"None",3250
+"1092","Haifa","None","None",4,"A/C",4093
+"1093","Tel Aviv","Balcony","Outside",2,"None",4063
+"1094","Jerusalem","Balcony","Inside",3,"A/C",4884
+"1095","Tel Aviv","Balcony","Inside",4,"None",5721
+"1096","Tel Aviv","None","None",2,"None",3393
+"1097","Jerusalem","Balcony","Inside",3,"None",4623
+"1098","Tel Aviv","None","Outside",4,"None",5608
+"1099","Jerusalem","Balcony","Inside",2,"None",3633
+"1100","Haifa","None","None",3,"A/C",3214
+"1101","Jerusalem","None","None",3,"None",3989
+"1102","Haifa","Balcony","Outside",5,"A/C",5408
+"1103","Tel Aviv","None","Inside",3,"A/C",5028
+"1104","Jerusalem","Balcony","Outside",2,"None",3347
+"1105","Jerusalem","Balcony","Outside",3,"None",4322
+"1106","Jerusalem","Balcony","None",2,"None",3119
+"1107","Haifa","None","Outside",4,"A/C",4293
+"1108","Tel Aviv","Balcony","None",4,"None",5612
+"1109","Tel Aviv","None","Outside",5,"None",6197
+"1110","Haifa","Balcony","Outside",2,"A/C",2745
+"1111","Jerusalem","Balcony","Outside",2,"None",3460
+"1112","Haifa","Balcony","Inside",3,"A/C",3870
+"1113","Jerusalem","None","None",5,"A/C",5441
+"1114","Tel Aviv","Balcony","None",3,"None",4915
+"1115","Jerusalem","None","Outside",5,"A/C",5771
+"1116","Jerusalem","Balcony","None",4,"None",5129
+"1117","Haifa","Balcony","Inside",4,"A/C",4752
+"1118","Tel Aviv","None","Inside",4,"None",5710
+"1119","Haifa","None","Outside",5,"A/C",4739
+"1120","Haifa","None","Inside",3,"A/C",3430
+"1121","Haifa","None","Inside",2,"None",2409
+"1122","Haifa","None","Inside",5,"None",4709
+"1123","Tel Aviv","None","Inside",4,"A/C",5656
+"1124","Jerusalem","None","Outside",2,"None",2885
+"1125","Tel Aviv","Balcony","None",5,"A/C",6478
+"1126","Jerusalem","None","Outside",5,"None",5534
+"1127","Haifa","None","Outside",2,"A/C",2349
+"1128","Haifa","None","Inside",4,"A/C",4192
+"1129","Tel Aviv","None","Outside",3,"None",4588
+"1130","Haifa","None","Outside",2,"A/C",2207
+"1131","Haifa","None","Outside",5,"A/C",4819
+"1132","Haifa","None","Inside",2,"None",2088
+"1133","Jerusalem","Balcony","Inside",3,"None",4512
+"1134","Haifa","Balcony","None",2,"None",2250
+"1135","Tel Aviv","Balcony","None",5,"None",6191
+"1136","Jerusalem","None","Outside",3,"A/C",4343
+"1137","Jerusalem","None","Outside",5,"None",5453
+"1138","Jerusalem","None","Outside",4,"A/C",5138
+"1139","Tel Aviv","None","None",5,"None",5939
+"1140","Jerusalem","None","Inside",2,"None",3101
+"1141","Haifa","Balcony","Inside",3,"None",3762
+"1142","Jerusalem","None","Outside",3,"None",4005
+"1143","Haifa","Balcony","None",4,"A/C",4204
+"1144","Jerusalem","None","Inside",2,"A/C",3298
+"1145","Tel Aviv","Balcony","Inside",5,"A/C",6892
+"1146","Tel Aviv","Balcony","Outside",2,"A/C",4400
+"1147","Haifa","None","None",2,"A/C",2132
+"1148","Jerusalem","None","Outside",4,"None",4851
+"1149","Haifa","Balcony","Outside",3,"None",3566
+"1150","Haifa","Balcony","Inside",5,"None",4910
+"1151","Tel Aviv","Balcony","Outside",5,"None",6382
+"1152","Jerusalem","None","None",2,"None",2719
+"1153","Haifa","None","Inside",3,"None",3391
+"1154","Haifa","None","Inside",5,"None",4890
+"1155","Tel Aviv","None","Inside",2,"None",3693
+"1156","Tel Aviv","None","Inside",5,"None",6207
+"1157","Tel Aviv","None","None",4,"A/C",5399
+"1158","Jerusalem","Balcony","Inside",5,"None",6025
+"1159","Haifa","None","None",5,"None",4245
+"1160","Tel Aviv","None","Inside",3,"None",4888
+"1161","Jerusalem","None","Inside",5,"A/C",5956
+"1162","Jerusalem","None","None",2,"None",2997
+"1163","Haifa","Balcony","Inside",3,"None",3596
+"1164","Jerusalem","Balcony","Inside",3,"None",4643
+"1165","Haifa","Balcony","None",5,"A/C",4918
+"1166","Tel Aviv","Balcony","Outside",4,"None",5718
+"1167","Tel Aviv","None","Outside",2,"None",3496
+"1168","Haifa","Balcony","None",4,"None",3969
+"1169","Haifa","Balcony","Inside",4,"None",4303
+"1170","Haifa","Balcony","None",2,"A/C",2388
+"1171","Tel Aviv","Balcony","None",4,"None",5706
+"1172","Jerusalem","None","Outside",4,"A/C",5284
+"1173","Tel Aviv","Balcony","Inside",5,"A/C",6764
+"1174","Haifa","None","Outside",2,"A/C",2285
+"1175","Jerusalem","Balcony","Outside",4,"None",5376
+"1176","Haifa","Balcony","Outside",5,"A/C",5062
+"1177","Haifa","None","Outside",3,"A/C",3540
+"1178","Tel Aviv","None","None",4,"A/C",5485
+"1179","Haifa","Balcony","None",5,"A/C",4930
+"1180","Jerusalem","Balcony","None",4,"A/C",5368
+"1181","Haifa","Balcony","None",3,"A/C",3465
+"1182","Haifa","Balcony","None",2,"A/C",2509
+"1183","Tel Aviv","Balcony","Outside",3,"A/C",5327
+"1184","Jerusalem","Balcony","None",3,"None",4183
+"1185","Haifa","None","None",2,"None",1750
+"1186","Haifa","Balcony","None",3,"A/C",3711
+"1187","Tel Aviv","Balcony","Inside",4,"A/C",5982
+"1188","Haifa","None","Inside",3,"A/C",3467
+"1189","Jerusalem","Balcony","None",2,"None",3309
+"1190","Tel Aviv","Balcony","None",2,"None",3644
+"1191","Tel Aviv","Balcony","None",5,"A/C",6599
+"1192","Tel Aviv","Balcony","Inside",4,"A/C",6261
+"1193","Jerusalem","None","Outside",3,"None",4058
+"1194","Haifa","Balcony","Inside",2,"None",2690
+"1195","Jerusalem","None","Inside",2,"None",3021
+"1196","Tel Aviv","None","Inside",3,"None",4820
+"1197","Haifa","None","Outside",5,"A/C",4923
+"1198","Haifa","Balcony","None",3,"None",3156
+"1199","Jerusalem","Balcony","Outside",4,"None",5234
+"1200","Haifa","Balcony","Inside",5,"A/C",5535
+"1201","Haifa","None","Inside",2,"A/C",2678
+"1202","Jerusalem","Balcony","Outside",3,"A/C",4891
+"1203","Haifa","Balcony","None",5,"A/C",4865
+"1204","Tel Aviv","Balcony","None",2,"None",3907
+"1205","Tel Aviv","None","None",2,"None",3522
+"1206","Jerusalem","None","Outside",5,"None",5370
+"1207","Tel Aviv","Balcony","Outside",2,"A/C",4268
+"1208","Tel Aviv","Balcony","Inside",2,"A/C",4499
+"1209","Tel Aviv","None","Outside",5,"A/C",6579
+"1210","Tel Aviv","None","Inside",4,"A/C",5952
+"1211","Haifa","None","Outside",4,"None",3938
+"1212","Haifa","Balcony","Inside",5,"None",5234
+"1213","Jerusalem","None","Inside",2,"A/C",3443
+"1214","Jerusalem","None","Inside",3,"None",4183
+"1215","Jerusalem","None","None",2,"None",2622
+"1216","Tel Aviv","Balcony","Inside",5,"A/C",6962
+"1217","Jerusalem","None","None",5,"A/C",5404
+"1218","Tel Aviv","Balcony","None",4,"None",5416
+"1219","Tel Aviv","None","Inside",3,"A/C",5293
+"1220","Tel Aviv","Balcony","Inside",2,"A/C",4383
+"1221","Haifa","None","None",4,"None",3582
+"1222","Jerusalem","None","None",5,"None",5134
+"1223","Haifa","None","Outside",4,"None",4064
+"1224","Haifa","Balcony","Inside",2,"None",2605
+"1225","Jerusalem","Balcony","None",3,"A/C",4501
+"1226","Tel Aviv","Balcony","None",3,"None",4966
+"1227","Haifa","Balcony","Inside",2,"A/C",3022
+"1228","Tel Aviv","Balcony","Inside",5,"None",6668
+"1229","Tel Aviv","None","Inside",5,"A/C",6646
+"1230","Jerusalem","None","Inside",5,"None",5613
+"1231","Haifa","None","Inside",4,"A/C",4494
+"1232","Tel Aviv","Balcony","Inside",4,"A/C",6015
+"1233","Tel Aviv","Balcony","Inside",2,"None",4173
+"1234","Tel Aviv","None","Outside",2,"None",3601
