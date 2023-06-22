@@ -7,7 +7,7 @@ $DIR/setup_bashrc.sh
 source ~/.bashrc
 
 ### setup the latest git
-$DIR/uprade_git.sh
+!/bin/sh $DIR/uprade_git.sh
 
 sudo yum install netcat
 
