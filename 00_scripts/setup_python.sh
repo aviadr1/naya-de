@@ -13,6 +13,7 @@ sudo yum install netcat
 
 # change the default conda environment to be based on python 3.6.6 
 # which is compatible with the installation of hadoop, spark and kafka 
+conda activate
 conda update conda
 conda install python=3.6.6 pyhive=0.6.1 thriftpy2 sqlalchemy=1.3.1 ibis-framework=0.14.0 mysql-connector-python pyspark=2.4.3 
 conda install -c conda-forge matplotlib
