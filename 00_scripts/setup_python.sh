@@ -11,14 +11,17 @@ $DIR/uprade_git.sh
 
 sudo yum install netcat
 
+# change the default conda environment to be based on python 3.6.6 
+# which is compatible with the installation of hadoop, spark and kafka 
 conda update conda
-### if you want to install the environment on your own, uncomment the following lines
-# conda create -n hadoop37 python=3.7.16 pyarrow pyhive ibis-framework mysql-connector-python pandas sqlalchemy thriftpy2 pyspark
-# conda activate hadoop37
-# conda install -c conda-forge matplotlib tweepy kafka-python
-# pip install textblob jupyterlab jupyter notebook PyMySQL
-### otherwise you can install from the environment.yml
-conda env create -f $DIR/environment.yml
-conda activate hadoop37
+conda install python=3.6.6 pyhive=0.6.1 thriftpy2 sqlalchemy=1.3.1 ibis-framework=0.14.0 mysql-connector-python pyspark=2.4.3 
+conda install -c conda-forge matplotlib
+conda install -c conda-forge tweepy
+pip install textblob
+conda config --append channels conda-forge
+conda install kafka-python=1.4.6
+conda install mysql-connector-python
+
+
 
 
